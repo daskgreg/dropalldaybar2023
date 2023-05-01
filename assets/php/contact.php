@@ -36,10 +36,9 @@ $mail->AddAddress($recipientEmail, $recipientName);
 //now make those variables the body of the emails
 $message = '<html><body>';
 $message .= '<table rules="all" style="border:1px solid #666;width:300px;" cellpadding="10">';
-$message .= ($senderName) ? "<tr style='background: #eee;'><td><strong>Name:</strong> </td><td>" . $senderName . $senderLastName "</td></tr>" : '';
+$message .= ($senderName) ? "<tr style='background: #eee;'><td><strong>Name:</strong> </td><td>" . $senderName . $senderLastName . "</td></tr>" : '';
 $message .= ($senderEmail) ?"<tr><td><strong>Email:</strong> </td><td>" . $senderEmail . "</td></tr>" : '';
 $message .= ($senderPhone) ?"<tr><td><strong>Phone:</strong> </td><td>" . $senderPhone . "</td></tr>" : '';
-$message .= ($senderMessage) ?"<tr><td><strong>Email:</strong> </td><td>" . $senderEmail . "</td></tr>" : '';
 $message .= ($senderMessage) ?"<tr><td><strong>Message:</strong> </td><td>" . $senderMessage . "</td></tr>" : '';
 
 $message .= "</table>";
