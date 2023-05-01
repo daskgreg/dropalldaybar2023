@@ -163,6 +163,10 @@ select {
 }
 
 
+.banner__subtitle{
+  color:black;
+}
+
 
 .greekBtn:hover{
   background-color: #2cab95;

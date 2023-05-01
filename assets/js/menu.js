@@ -3,16 +3,24 @@
 
 
 function greek() {
-    var x = document.getElementById("greekLanguage");
-    var y = document.getElementById("greekLanguage");
-    var selectLanguage = document.getElementById("selectLanguage")
-    if (x.style.display === "none") {
-      x.style.display = "block";
-      selectLanguage.style.display = "none";
+    var greekLanguage = document.getElementById("greekLanguage");
+    var greekText = document.getElementById("greektext");
+    var engText = document.getElementById("engtext");
+
+    var greekLangText1 = document.getElementById("greekLanguageText1")
+
+    if (greekLanguage.style.display === "none") {
+      greekLanguage.style.display = "block";
+      greekText.style.display = "none";
+      engText.style.display = "none";
+      greekLangText1.style.display = "block";
 
     } else {
-      x.style.display = "none";
-      selectLanguage.style.display = "block";
+      greekLanguage.style.display = "none";
+      greekText.style.display = "block";
+      engText.style.display = "block";
+      greekLangText1.style.display = "none";
+
     }
 }
 
