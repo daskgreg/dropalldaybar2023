@@ -778,7 +778,34 @@ select {
     padding-bottom: 89.47368px !important;
   }
 }
+@media only screen and (min-width: 320px) and (max-width: 767px) {
 
+.menu-item1{
+
+  height: 600px;
+  background-size:auto;
+}
+
+.pagetitle__subheading {
+  font-family: "Shadows Into Light", cursive;
+  font-size: 30px;
+  color: #f9f9f9;
+  display: block;
+  margin-bottom: 10px;
+}
+.pagetitle__heading {
+  font-size: 55px;
+  color: #ffffff;
+  margin-bottom: 0;
+  font-size:50px !important;
+}
+
+.page-title {
+  padding-top: 200px !important;
+  padding-bottom: 150px;
+}
+
+}
 /* Mobile Phones and tablets */
 @media only screen and (min-width: 320px) and (max-width: 767px) {
   section {
