@@ -798,6 +798,10 @@ select {
   color: #ffffff;
   margin-bottom: 0;
   font-size:50px !important;
+
+  margin-bottom: 10px;
+  margin-top: 10px;
+
 }
 
 .page-title {
