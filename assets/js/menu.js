@@ -3,7 +3,8 @@
 
 
 function greek() {
-    var x = document.getElementById("coffeeorbrunchgreek");
+    var x = document.getElementById("greekLanguage");
+    var y = document.getElementById("greekLanguage");
     var selectLanguage = document.getElementById("selectLanguage")
     if (x.style.display === "none") {
       x.style.display = "block";
@@ -15,19 +16,3 @@ function greek() {
     }
 }
 
-function coffeeOrBrunchGR() {
-
-
-    var  x = document.getElementById("greekLanguage");
-    var selectBrunchOrCoffee = document.getElementById("coffeeorbrunchgreek");
-
-
-    if (x.style.display === "none") {
-      x.style.display = "block";
-      selectBrunchOrCoffee.style.display = "none";
-
-    } else {
-      x.style.display = "none";
-      selectBrunchOrCoffee.style.display = "block";
-    }
-}

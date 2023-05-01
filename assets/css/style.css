@@ -4075,13 +4075,59 @@ textarea.form-control {
   transition: all 0.4s linear;
 }
 
-.portfolio-filter li a:hover,
+
+
+.ff {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-bottom: 30px;
+}
+
+.ff a {
+  margin-right: 30px;
+}
+
+.ff a:last-child {
+  margin-right: 0;
+}
+
+.ff a {
+  position: relative;
+  font-family: "Rubik", sans-serif;
+  color: #282828;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1;
+  text-transform: capitalize;
+  display: block;
+  padding-bottom: 3px;
+  margin-bottom: 5px;
+}
+
+.ff a:after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: #2cab95;
+  -webkit-transition: all 0.4s linear;
+  transition: all 0.4s linear;
+}
+
+
+
+.ff a:hover,
 .portfolio-filter li a.active {
   color: #2cab95;
 }
 
-.portfolio-filter li a:hover:after,
-.portfolio-filter li a.active:after {
+.ff a:hover:after,
+.ff a.active:after {
   width: 100%;
 }
 
@@ -4375,6 +4421,12 @@ textarea.form-control {
     right: 15px;
   }
   .portfolio-filter li {
+    margin-right: 15px;
+    margin-bottom: 10px;
+  }
+
+
+  .ff a {
     margin-right: 15px;
     margin-bottom: 10px;
   }
