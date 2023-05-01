@@ -97,8 +97,10 @@
           <div class="col-sm-12 col-md-12 col-lg-10 offset-lg-1">
             <span class="pagetitle__subheading">Discover Our Menu</span>
             <h1 id="greektext" style="display:block;" class="pagetitle__heading"><button onClick="greek()" class="pagetitle__heading">ΕΛΛΗΝΙΚΑ</button></h1>
-            <h1 id="engtext" style="display:block;" class="pagetitle__heading"><button class="pagetitle__heading">ENGLISH</button></h1>
+            <h1 id="engtext" style="display:block;" class="pagetitle__heading"><button onClick="eng()"  class="pagetitle__heading">ENGLISH</button></h1>
             <h1 id="greekLanguageText1"  style="display: none" class="pagetitle__heading">Δοκιμάστε !</h1>
+            <h1 id="engLanguageText1"  style="display: none" class="pagetitle__heading">Enjoy our Menu !</h1>
+
 
           </div>
           <!-- /.col-lg-8 -->
@@ -109,31 +111,6 @@
     </section>
     <!-- /.page-title -->
 
-    <!-- <section id="selectLanguage">
-      <div class="container">
-        <div style="margin-bottom: 10%" class="row">
-          <div class="col-sm-12 col-md-12 col-lg-6 offset-lg-3">
-            <div class="heading text-center">
-              <h2 style="text-align: center" class="heading__title">
-                Language - Γλώσσα
-              </h2>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div style="text-align: center; margin-bottom: 18%" class="col-sm-6 col-md-6 col-lg-6">
-            <button onClick="greek()" class="greekBtn">
-              <span class="greekBtn heading__subtitle">Greek</span>
-            </button>
-          </div>
-          <div style="text-align: center" class="col-sm-6 col-md-6 col-lg-6">
-            <button onClick="eng()" class="engBtn">
-              <span class="engBtn heading__subtitle">English</span>
-            </button>
-          </div>
-        </div>
-      </div>
-    </section> -->
 
 
     <div id="greekLanguage" style="display: none">
@@ -414,8 +391,6 @@
           <!-- /.col-lg-6 -->
         </div>
         <!-- /.row  -->
-    </div>
-    <!-- /.container -->
     </section>
     <!-- /.menu layout 1 -->
 
@@ -463,6 +438,7 @@
       <!-- /.container -->
 
       <div class="container">
+       
         <div class="row">
           <div class="col-sm-12 col-md-12 col-lg-6">
             <div class="menu-item">
@@ -483,24 +459,17 @@
               </p>
             </div>
             <!-- /.menu-item -->
+          
+            <!-- /.menu-item -->
+          </div>
+          <!-- /.col-lg-6 -->
+          <div class="col-sm-12 col-md-12 col-lg-6">
             <div class="menu-item">
               <h4 class="menu__item-title">ΧΟΙΡΙΝΟ ΠΑΝΚΟ</h4>
               <span class="menu__item-price"> 8.80€</span>
               <p class="menu__item-desc">
                 κρέμα τυριού, λόλα, ντομάτα, ρόκα, κολοκύθι καραμελωμένα
                 κρεμμύδια, κρέμα βαλσάμικο
-              </p>
-            </div>
-            <!-- /.menu-item -->
-          </div>
-          <!-- /.col-lg-6 -->
-          <div class="col-sm-12 col-md-12 col-lg-6">
-            <div class="menu-item">
-              <h4 class="menu__item-title">ΜΠΕΡΓΚΕΡ</h4>
-              <span class="menu__item-price">8.20€</span>
-              <p class="menu__item-desc">
-                milk bread, μπιεφτέκι chips κρεμμυδιού, τυρί, τσένταρ, spicy
-                μαγιονέζα, bbq, μώβ λάχανο
               </p>
             </div>
             <!-- /.menu-item -->
@@ -518,7 +487,15 @@
           <!-- /.col-lg-6 -->
         </div>
         <!-- /.row  -->
-
+        <div style="text-align: center; font-size: 20px; margin-bottom: 10%" class="container">
+          <div class="row">
+            <div class="col-sm-12 col-md-12 col-lg-12">
+              <span class="banner__subtitle">SANDO</span>
+            </div>
+            <!-- /.col-lg-12 -->
+          </div>
+          <!-- /.row -->
+        </div>
         <div class="row">
           <div class="col-sm-12 col-md-12 col-lg-6">
             <div class="menu-item">
@@ -1061,25 +1038,22 @@
           <div class="col-sm-12 col-md-12 col-lg-6">
             <div class="menu-item">
               <h4 class="menu__item-title">ΚΟΤΟΠΟΥΛΟ ΣΩΤΕ</h4>
-              <span class="pricing__tag">Νέο</span>
               <span class="menu__item-price">8.80€</span>
               <p class="menu__item-desc">
-                κοτόπουλο φιλέτο με σάλτσα κάρυ/p>
+                κοτόπουλο φιλέτο με σάλτσα κάρυ</p>
               </p>
             </div>
 
             <!-- /.menu-item -->
             <div class="menu-item">
               <h4 class="menu__item-title">ΦΙΛΕΤΟ ΚΟΤΟΠΟΥΛΟ</h4>
-              <span class="pricing__tag">Νέο</span>
 
               <span class="menu__item-price">8.60€</span>
-              <p class="menu__item-desc"></p>
+              <p class="menu__item-desc">με σάλτσα πορτοκαλιού</p>
             </div>
             <!-- /.menu-item -->
             <div class="menu-item">
               <h4 class="menu__item-title">ΣΝΙΤΣΕΛ</h4>
-              <span class="pricing__tag">Νέο</span>
 
               <span class="menu__item-price">7.80€</span>
               <p class="menu__item-desc">
@@ -1092,7 +1066,6 @@
           <div class="col-sm-12 col-md-12 col-lg-6">
             <div class="menu-item">
               <h4 class="menu__item-title">ΜΠΙΦΤΕΚΙ</h4>
-              <span class="pricing__tag">Νέο</span>
 
               <span class="menu__item-price">8.40€</span>
               <p class="menu__item-desc">με σάλτσα φέτας</p>
@@ -1100,8 +1073,6 @@
             <!-- /.menu-item -->
             <div class="menu-item">
               <h4 class="menu__item-title">ΚΟΤΟΜΠΟΥΚΙΕΣ</h4>
-              <span class="pricing__tag">Νέο</span>
-
               <span class="menu__item-price">7.20€</span>
               <p class="menu__item-desc">
                 μαγιονέζα τσίλι, μπάρμπεκιου sauce και πατάτες country
@@ -1872,18 +1843,18 @@
         <div class="row">
           <div class="col-sm-12 col-md-12 col-lg-6">
             <div class="menu-item">
-              <h4 class="menu__item-title"></h4>
+              <h4 class="menu__item-title">ΒΑΝΙΛΙΑ ΜΑΔΑΓΑΣΚΑΡΗΣ</h4>
               <span class="menu__item-price">4.00€</span>
             </div>
             <!-- /.menu-item -->
             <div class="menu-item">
-              <h4 class="menu__item-title">ΛΕΥΚΗ</h4>
+              <h4 class="menu__item-title">ΣΟΚΟΛΑΤΑ</h4>
               <span class="menu__item-price">4.00€</span>
             </div>
             <!-- /.menu-item -->
 
             <div class="menu-item">
-              <h4 class="menu__item-title">ΑΝΑΜΕΙΚΤΗ</h4>
+              <h4 class="menu__item-title">ΦΡΑΟΥΛΑ</h4>
               <span class="menu__item-price">4.00€</span>
             </div>
             <!-- /.menu-item -->
@@ -1891,13 +1862,18 @@
           <!-- /.col-lg-6 -->
           <div class="col-sm-12 col-md-12 col-lg-6">
             <div class="menu-item">
-              <h4 class="menu__item-title">ΒΙΕΝΟΥΑ</h4>
+              <h4 class="menu__item-title">ΜΠΑΝΑΝΑ</h4>
               <span class="menu__item-price">4.50€</span>
             </div>
             <!-- /.menu-item -->
 
             <div class="menu-item">
-              <h4 class="menu__item-title">ΛΕΥΚΗ ΒΙΕΝΟΥΑ</h4>
+              <h4 class="menu__item-title">ΜΠΙΣΚΟΤΟ</h4>
+              <span class="menu__item-price">4.50€</span>
+            </div>
+
+            <div class="menu-item">
+              <h4 class="menu__item-title">ΚΑΡΑΜΕΛΑ</h4>
               <span class="menu__item-price">4.50€</span>
             </div>
             <!-- /.menu-item -->
@@ -2887,6 +2863,2709 @@
     </div>
   </section>
   </div>
+
+  
+  <div id="engLanguage" style="display: none">
+
+    <div style="margin-top:10%;" class="row">
+      <div class="col-sm-12 col-md-12 col-lg-12">
+        <ul style="    padding-left: 0px;" class="portfolio-filter ff justify-content-center">
+          <a class="filter" href="#brunchBanner">All</a>
+      
+        </ul><!-- /.portfolio-filter  -->
+      </div><!-- /.col-lg-12 -->
+    </div><!-- /.row -->
+
+    <div style="" class="row">
+      <div class="col-sm-12 col-md-12 col-lg-12">
+        <ul style="    padding-left: 0px;" class="portfolio-filter ff justify-content-center">
+          <a class="filter" href="#brunchBanner">Brunch</a>
+          <a class="filter" href="#fingerfoodBanner">Finger Food</a>
+          <a class="filter" href="#mainfoodBanner">Main Food</a>
+          <a class="filter" href="#dessertsBanner">Desserts</a>
+        </ul><!-- /.portfolio-filter  -->
+      </div><!-- /.col-lg-12 -->
+    </div><!-- /.row -->
+
+    <div style="margin-bottom:2%;" class="row">
+      <div class="col-sm-12 col-md-12 col-lg-12">
+        <ul style="    padding-left: 0px;"class="portfolio-filter ff justify-content-center">
+          <a class="filter" href="#coffeeteaBanner">Coffee & more</a>
+          <a class="filter" href="#beerswinesBanner">Beers & Wines</a>
+          <a class="filter" href="#drinksBanner">Drinks</a>
+        </ul><!-- /.portfolio-filter  -->
+      </div><!-- /.col-lg-12 -->
+    </div><!-- /.row -->
+
+   
+
+
+    <section id="brunchBanner"
+      class="text-banner text-banner-layout1 text-center bg-overlay bg-overlay-gradient bg-parallax">
+      <div class="bg-img">
+        <img src="assets/images/backgrounds/20.jpg" alt="background" />
+      </div>
+      <svg class="divider-shape" xmlns="http://www.w3.org/2000/svg" width="142" height="17" viewBox="0 0 142 17">
+        <path
+          d="M800,600V583c8.782,15.985,46.811,11.315,56,12a35.721,35.721,0,0,1,15,5m-71,0V583c-8.782,15.985-46.811,11.315-56,12a35.717,35.717,0,0,0-15,5"
+          transform="translate(-729 -583)"></path>
+      </svg>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 col-md-12 col-lg-12">
+            <span class="banner__subtitle">Starts At 08:00 am</span>
+            <h2 class="banner__title">Brunch Menu</h2>
+          </div>
+          <!-- /.col-lg-12 -->
+        </div>
+        <!-- /.row -->
+      </div>
+      <!-- /.container -->
+    </section>
+    <!-- /.textBanner layout 1 -->
+
+    <section id="menulayout1" class="menu-layout1 pb-80">
+      <div style="text-align: center; font-size: 20px; margin-bottom: 10%" class="container">
+        <div class="row">
+          <div class="col-sm-12 col-md-12 col-lg-12">
+            <span class="banner__subtitle">EGG PARTY</span>
+          </div>
+          <!-- /.col-lg-12 -->
+        </div>
+        <!-- /.row -->
+      </div>
+      <!-- /.container -->
+
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 col-md-12 col-lg-6">
+            <div class="menu-item">
+              <h4 class="menu__item-title">CROQUE MADAM</h4>
+              <span class="pricing__tag">Νέο</span>
+              <span class="menu__item-price">6.80€</span>
+              <p class="menu__item-desc">
+                toasted bread with gouda, crispy bacon, bechamel sauce, fried egg
+              </p>
+            </div>
+            <!-- /.menu-item -->
+            <div class="menu-item">
+              <h4 class="menu__item-title">EGG BENEDICT</h4>
+              <span class="pricing__tag">Νέο</span>
+              <span class="menu__item-price">7.60€</span>
+              <p class="menu__item-desc">
+                brioche bread with mayonnaise, gouda, smoked turkey crispy bacon, two poached eggs, hollandaise sauce
+              </p>
+            </div>
+            <!-- /.menu-item -->
+            <div class="menu-item">
+              <h4 class="menu__item-title">EGG BENEDICT ΣΟΛΟΜOY</h4>
+              <span class="pricing__tag">Νέο</span>
+              <span class="menu__item-price">8.60€</span>
+              <p class="menu__item-desc">
+                toasted bread, creme cheese, aromatic creme avocado smoked salmon, arugula, two poached eggs, hollandaise
+              </p>
+            </div>
+            <!-- /.menu-item -->
+            <div class="menu-item">
+              <h4 class="menu__item-title">HEALTHY FRENCH TOASTS</h4>
+              <span class="pricing__tag">Νέο</span>
+              <span class="menu__item-price">5.40€</span>
+              <p class="menu__item-desc">
+                milk bread, tahini, honey, banana, nut
+              </p>
+            </div>
+            <!-- /.menu-item -->
+          </div>
+          <!-- /.col-lg-6 -->
+          <div class="col-sm-12 col-md-12 col-lg-6">
+            <div class="menu-item">
+              <h4 class="menu__item-title">PANCAKES BENEDICT</h4>
+              <span class="pricing__tag">Νέο</span>
+              <span class="menu__item-price">7.60€</span>
+              <p class="menu__item-desc">
+                fluffy pancakes with gouda, smoked turkey, crispy bacon poached egg, mayonnaise, hollandaise sauce
+              </p>
+            </div>
+            <!-- /.menu-item -->
+            <div class="menu-item">
+              <h4 class="menu__item-title">AVOCADO TOAST</h4>
+              <span class="pricing__tag">Νέο</span>
+              <span class="menu__item-price">6.40€</span>
+              <p class="menu__item-desc">
+                oasted bread, wholewheat with creme cheese, aromatic avocado creme, cherry tomatoes, two poached eggs
+              </p>
+            </div>
+            <!-- /.menu-item -->
+            <div class="menu-item">
+              <h4 class="menu__item-title">DIRTY CHICKEN</h4>
+              <span class="pricing__tag">Νέο</span>
+              <span class="menu__item-price">8.20€</span>
+              <p class="menu__item-desc">
+                milk bread, mayonnaise, lola, tomatoe, chicken bites crispy bacon, two poached eggs, cheddar sauce
+              </p>
+            </div>
+            <!-- /.menu-item -->
+            <div class="menu-item">
+              <h4 class="menu__item-title">DROP’S FRENCH TOASTS</h4>
+              <span class="pricing__tag">Νέο</span>
+              <span class="menu__item-price">5.80€</span>
+              <p class="menu__item-desc">
+                milk bread, creme patissiere, strawberries, merenda
+              </p>
+            </div>
+            <!-- /.menu-item -->
+          </div>
+          <!-- /.col-lg-6 -->
+        </div>
+        <!-- /.row  -->
+
+        <div style="text-align: center; font-size: 20px; margin-bottom: 10%" class="container">
+          <div class="row">
+            <div class="col-sm-12 col-md-12 col-lg-12">
+              <span class="banner__subtitle">OMELETTES</span>
+            </div>
+            <!-- /.col-lg-12 -->
+          </div>
+          <!-- /.row -->
+        </div>
+        <!-- /.container -->
+        <div class="row">
+          <div class="col-sm-12 col-md-12 col-lg-6">
+            < <div class="menu-item">
+              <h4 class="menu__item-title">DROP’S OMELETTE</h4>
+              <span class="pricing__tag">New</span>
+              <span class="menu__item-price">6.20€</span>
+              <p class="menu__item-desc">
+                chicken fillet, cherry tomatoes, mushrooms tricolore peppers, cheddar sauce
+              </p>
+          </div>
+          <!-- /.menu-item -->
+          <div class="menu-item">
+            <h4 class="menu__item-title">TURKEY OMELETTE</h4>
+            <span class="pricing__tag">Νέο</span>
+
+            <span class="menu__item-price">5.80€</span>
+            <p class="menu__item-desc">
+              smoked turkey, tricolore peppers, cherry tomatoes
+            </p>
+          </div>
+          <!-- /.menu-item -->
+        </div>
+        <!-- /.col-lg-6 -->
+        <div class="col-sm-12 col-md-12 col-lg-6">
+          <div class="menu-item">
+            <h4 class="menu__item-title">VEGETERIAN OMELETTE</h4>
+            <span class="pricing__tag">Νέο</span>
+
+            <span class="menu__item-price">5.60€</span>
+            <p class="menu__item-desc">
+              onion, mushrooms, tricolore peppers, corn cherry tomatoes, gouda
+
+            </p>
+          </div>
+          <!-- /.menu-item -->
+          <div class="menu-item">
+            <h4 class="menu__item-title">SPECIAL OMELETTE</h4>
+            <span class="pricing__tag">Νέο</span>
+
+            <span class="menu__item-price">5.80€</span>
+            <p class="menu__item-desc">ham, bacon, tomato, gouda</p>
+          </div>
+          <!-- /.menu-item -->
+        </div>
+        <!-- /.col-lg-6 -->
+      </div>
+      <!-- /.row  -->
+
+      <div style="text-align: center; font-size: 20px; margin-bottom: 10%" class="container">
+        <div class="row">
+          <div class="col-sm-12 col-md-12 col-lg-12">
+            <span class="banner__subtitle">YOGURT</span>
+          </div>
+          <!-- /.col-lg-12 -->
+        </div>
+        <!-- /.row -->
+      </div>
+      <!-- /.container -->
+
+      <div class="row">
+        <div class="col-sm-12 col-md-12 col-lg-6">
+          <div class="menu-item">
+            <h4 class="menu__item-title">DROP’S YOGURT</h4>
+            <span class="pricing__tag">Νέο</span>
+            <span class="menu__item-price">5.40€</span>
+            <p class="menu__item-desc">
+              strawberry yogurt, granola, chocolate flakes sunflower seed, banana
+            </p>
+          </div>
+          <!-- /.menu-item -->
+          <div class="menu-item">
+            <h4 class="menu__item-title">GRANOLA YOGURT</h4>
+            <span class="pricing__tag">Νέο</span>
+
+            <span class="menu__item-price">5.60€</span>
+            <p class="menu__item-desc">granola, berries, honey</p>
+          </div>
+          <!-- /.menu-item -->
+        </div>
+        <!-- /.col-lg-6 -->
+        <div class="col-sm-12 col-md-12 col-lg-6">
+          <div class="menu-item">
+            <h4 class="menu__item-title">FRESH FRUITS YOGURT</h4>
+            <span class="pricing__tag">Νέο</span>
+
+            <span class="menu__item-price">4.80€</span>
+            <p class="menu__item-desc">
+              fresh seasonal fruits, nuts, honey, oats
+            </p>
+          </div>
+          <!-- /.menu-item -->
+          <div class="menu-item">
+            <h4 class="menu__item-title">HEALTHY YOGURT</h4>
+            <span class="pricing__tag">Νέο</span>
+
+            <span class="menu__item-price">4.60€</span>
+            <p class="menu__item-desc">
+              strawberry, chia seeds, oats, nuts, honey
+            </p>
+          </div>
+          <!-- /.menu-item -->
+        </div>
+        <!-- /.col-lg-6 -->
+      </div>
+      <!-- /.row  -->
+  </section>
+  <!-- /.menu layout 1 -->
+
+  <!-- ========================
+ text Banner layout1
+=========================== -->
+
+  <section id="fingerfoodBanner"
+    class="text-banner text-banner-layout1 text-center bg-overlay bg-overlay-gradient bg-parallax">
+    <div class="bg-img">
+      <img src="assets/images/backgrounds/21.jpg" alt="background" />
+    </div>
+    <svg class="divider-shape" xmlns="http://www.w3.org/2000/svg" width="142" height="17" viewBox="0 0 142 17">
+      <path
+        d="M800,600V583c8.782,15.985,46.811,11.315,56,12a35.721,35.721,0,0,1,15,5m-71,0V583c-8.782,15.985-46.811,11.315-56,12a35.717,35.717,0,0,0-15,5"
+        transform="translate(-729 -583)"></path>
+    </svg>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12 col-md-12 col-lg-12">
+          <span class="banner__subtitle">All day</span>
+          <h2 class="banner__title">Finger Food</h2>
+        </div>
+        <!-- /.col-lg-12 -->
+      </div>
+      <!-- /.row -->
+    </div>
+    <!-- /.container -->
+  </section>
+  <!-- /.textBanner layout1 -->
+
+  <!-- ========================
+  Menu layout 
+=========================== -->
+  <section id="menu-layout1" class="menu-layout1 pb-80">
+    
+    <!-- /.container -->
+
+    <div class="container">
+      <div style="text-align: center; font-size: 20px; margin-bottom: 10%" class="container">
+        <div class="row">
+          <div class="col-sm-12 col-md-12 col-lg-12">
+            <span class="banner__subtitle">BAO BANS</span>
+          </div>
+          <!-- /.col-lg-12 -->
+        </div>
+        <!-- /.row -->
+      </div>
+      <div class="row">
+        <div class="col-sm-12 col-md-12 col-lg-6">
+          <div class="menu-item">
+            <h4 class="menu__item-title">CRISPY CHICKEN</h4>
+            <span class="pricing__tag">Νέο</span>
+            <span class="menu__item-price">8.80€</span>
+            <p class="menu__item-desc">
+              crispy chicken, spicy mayonnaise, onion chips carrots, cabbage
+            </p>
+          </div>
+          <!-- /.menu-item -->
+          <div class="menu-item">
+            <h4 class="menu__item-title">BBQ PORK</h4>
+            <span class="menu__item-price">8.60€</span>
+            <p class="menu__item-desc">
+              pork belly with bbq, purple cabbage, spicy mayonnaise, onion chips
+            </p>
+          </div>
+          <!-- /.menu-item -->
+        
+          <!-- /.menu-item -->
+        </div>
+        <!-- /.col-lg-6 -->
+        <div class="col-sm-12 col-md-12 col-lg-6">
+          <div class="menu-item">
+            <h4 class="menu__item-title">PORK IN PANKO</h4>
+            <span class="menu__item-price"> 8.80€</span>
+            <p class="menu__item-desc">
+              spicy mayonnaise, caramelised onions purple cabbage
+            </p>
+          </div>
+          <!-- /.menu-item -->
+          <div class="menu-item">
+            <h4 class="menu__item-title">VEGGIE</h4>
+            <span class="pricing__tag">New</span>
+            <span class="menu__item-price">7.80€</span>
+            <p class="menu__item-desc">
+              cheese creme, lola, tomato, arugula, zucchini, caramelised onions, balsamic vinegar creme
+            </p>
+          </div>
+          <!-- /.menu-item -->
+        </div>
+        <!-- /.col-lg-6 -->
+      </div>
+      <!-- /.row  -->
+      <div style="text-align: center; font-size: 20px; margin-bottom: 10%" class="container">
+        <div class="row">
+          <div class="col-sm-12 col-md-12 col-lg-12">
+            <span class="banner__subtitle">SANDO</span>
+          </div>
+          <!-- /.col-lg-12 -->
+        </div>
+        <!-- /.row -->
+      </div>
+      <div class="row">
+        <div class="col-sm-12 col-md-12 col-lg-6">
+          <div class="menu-item">
+            <h4 class="menu__item-title">CRISPY CHICKEN</h4>
+            <span class="menu__item-price">8.60€</span>
+            <p class="menu__item-desc">
+              milk bread, crispy chicken, spicy mayonnaise cheddar sauce, cabbage, carrots
+            </p>
+          </div>
+          <!-- /.menu-item -->
+          <div class="menu-item">
+            <h4 class="menu__item-title">PORK & BBQ</h4>
+            <span class="menu__item-price">8.40€</span>
+            <p class="menu__item-desc">
+              milk bread, caramelised onions, cheddar sauce, spicy mayonnaise, purple cabbage
+            </p>
+          </div>
+          <!-- /.menu-item -->
+        </div>
+
+        <div class="col-sm-12 col-md-12 col-lg-6">
+          <div class="menu-item">
+            <h4 class="menu__item-title">BURGER</h4>
+            <span class="menu__item-price">8.20€</span>
+            <p class="menu__item-desc">
+              milk bread, burger meat patty, onion chips
+              bbq mayonnaise, cheddar sauce, purple cabbage
+            </p>
+          </div>
+          <!-- /.menu-item -->
+          <div class="menu-item">
+            <h4 class="menu__item-title">VEGGIE</h4>
+            <span class="pricing__tag">New</span>
+            <span class="menu__item-price">7.80€</span>
+            <p class="menu__item-desc">
+              cabbage, carrot, caramelised onions, cucumber lola, tomato, creme cheese
+            </p>
+          </div>
+          <!-- /.menu-item -->
+        </div>
+      </div>
+
+      <div style="text-align: center; font-size: 20px; margin-bottom: 10%" class="container">
+        <div class="row">
+          <div class="col-sm-12 col-md-12 col-lg-12">
+            <span class="banner__subtitle">SAVOURY PANCAKES</span>
+          </div>
+          <!-- /.col-lg-12 -->
+        </div>
+        <!-- /.row -->
+      </div>
+      <!-- /.container -->
+      <div class="row">
+        <div class="col-sm-12 col-md-12 col-lg-6">
+          <div class="menu-item">
+            <h4 class="menu__item-title">DROP</h4>
+            <span class="menu__item-price">6.40€</span>
+            <p class="menu__item-desc">
+              crispy bacon, mayonnaise, lola, tomato arugula, cheddar, fried egg
+            </p>
+          </div>
+          <!-- /.menu-item -->
+          <div class="menu-item">
+            <h4 class="menu__item-title">COLD CUTS</h4>
+            <span class="menu__item-price">6.40€</span>
+            <p class="menu__item-desc">
+              mayonnaise, lola, tomato, gouda, pork crispy bacon, smoked turkey
+            </p>
+          </div>
+          <!-- /.menu-item -->
+        </div>
+        <!-- /.col-lg-6 -->
+
+        <div class="col-sm-12 col-md-12 col-lg-6">
+          <div class="menu-item">
+            <h4 class="menu__item-title">CEASAR'S</h4>
+            <span class="menu__item-price">6.20€</span>
+            <p class="menu__item-desc">
+              crispy bacon, chicken, lola, tomato, graviera cheese, ceasar sauce
+
+            </p>
+          </div>
+          <!-- /.menu-item -->
+          <div class="menu-item">
+            <h4 class="menu__item-title">VEGGIE</h4>
+            <span class="menu__item-price">7.80€</span>
+            <p class="menu__item-desc">
+              cheese creme, lola, tomato, cucumber, tricolore peppers, mushrooms, marrow
+            </p>
+          </div>
+          <!-- /.menu-item -->
+        </div>
+      </div>
+
+      <div style="text-align: center; font-size: 20px; margin-bottom: 10%" class="container">
+        <div class="row">
+          <div class="col-sm-12 col-md-12 col-lg-12">
+            <span class="banner__subtitle">TORTILLA</span>
+          </div>
+          <!-- /.col-lg-12 -->
+        </div>
+        <!-- /.row -->
+      </div>
+      <!-- /.container -->
+
+      <div class="row">
+        <div class="col-sm-12 col-md-12 col-lg-6">
+          <div class="menu-item">
+            <h4 class="menu__item-title">DROP</h4>
+            <span class="menu__item-price">5.80€</span>
+            <p class="menu__item-desc">
+              lola, tomato, cheddar sauce, caramelised onions, bbq mayonnaise
+            </p>
+          </div>
+          <!-- /.menu-item -->
+          <div class="menu-item">
+            <h4 class="menu__item-title">COLD CUTS</h4>
+            <span class="menu__item-price">5.40€</span>
+            <p class="menu__item-desc">
+              mayonnaise, ham, crispy bacon, smoked turkey, lola, gouda, tomato
+            </p>
+          </div>
+          <!-- /.menu-item -->
+        </div>
+        <!-- /.col-lg-6 -->
+
+        <div class="col-sm-12 col-md-12 col-lg-6">
+          <div class="menu-item">
+            <h4 class="menu__item-title">CHICKEN</h4>
+            <span class="menu__item-price">5.40€</span>
+            <p class="menu__item-desc">
+              chicken fillet, lola, cucumber, tomato, corn, graviera cheese, ceasar's sauce
+            </p>
+          </div>
+          <!-- /.menu-item -->
+          <div class="menu-item">
+            <h4 class="menu__item-title">VEGETABLES</h4>
+            <span class="pricing__tag">New</span>
+            <span class="menu__item-price">4.80€</span>
+            <p class="menu__item-desc">
+              cheese creme, lola, tomato, cucumber tricolore peppers, mushrooms, marrow
+            </p>
+          </div>
+          <!-- /.menu-item -->
+        </div>
+      </div>
+
+      <div style="text-align: center; font-size: 20px; margin-bottom: 10%" class="container">
+        <div class="row">
+          <div class="col-sm-12 col-md-12 col-lg-12">
+            <span class="banner__subtitle">CLUB SANDWITCH</span>
+          </div>
+          <!-- /.col-lg-12 -->
+        </div>
+        <!-- /.row -->
+      </div>
+      <!-- /.container -->
+
+      <div class="row">
+        <div class="col-sm-12 col-md-12 col-lg-6">
+          <div class="menu-item">
+            <h4 class="menu__item-title">CLASSIC</h4>
+            <span class="menu__item-price">6.60€</span>
+            <p class="menu__item-desc">
+              mayonnaise, cheddar, ham, crispy bacon, egg, lola tomato
+            </p>
+          </div>
+          <!-- /.menu-item -->
+          <div class="menu-item">
+            <h4 class="menu__item-title">CHICKEN</h4>
+            <span class="menu__item-price">7.20€</span>
+            <p class="menu__item-desc">
+              mayonnaise, chicken fillet, cheddar, smoked turkey, egg, lola, tomato
+            </p>
+          </div>
+          <!-- /.menu-item -->
+        </div>
+        <!-- /.col-lg-6 -->
+
+        <div class="col-sm-12 col-md-12 col-lg-6">
+          <div class="menu-item">
+            <h4 class="menu__item-title">DROP</h4>
+            <span class="menu__item-price">8.20€</span>
+            <p class="menu__item-desc">
+              mayonnaise, crispy chicken, crispy bacon cheddar, lola, tomato, fried egg
+            </p>
+          </div>
+          <!-- /.menu-item -->
+          <div class="menu-item">
+            <h4 class="menu__item-title">BURGER</h4>
+            <span class="pricing__tag">New</span>
+            <span class="menu__item-price">8.00€</span>
+            <p class="menu__item-desc">
+              mayonnaise, meat patty, cheddar, crispy bacon, lola tomato
+            </p>
+          </div>
+          <!-- /.menu-item -->
+        </div>
+      </div>
+
+      <div style="text-align: center; font-size: 20px; margin-bottom: 10%" class="container">
+        <div class="row">
+          <div class="col-sm-12 col-md-12 col-lg-12">
+            <span class="banner__subtitle">SANDWITCHES</span>
+          </div>
+          <!-- /.col-lg-12 -->
+        </div>
+        <!-- /.row -->
+      </div>
+      <!-- /.container -->
+      <div class="row">
+        <div class="col-sm-12 col-md-12 col-lg-6">
+          <div class="menu-item">
+            <h4 class="menu__item-title">CIABATTA CRISPY CHICKEN</h4>
+            <span class="menu__item-price">4.80€</span>
+            <p class="menu__item-desc">
+              crispy chicken, spicy mayonnaise, cheddar sauce cabbage, carrot
+            </p>
+          </div>
+          <!-- /.menu-item -->
+          <div class="menu-item">
+            <h4 class="menu__item-title">CIABATTA SALMON</h4>
+            <span class="menu__item-price">5.20€</span>
+            <p class="menu__item-desc">
+              smoked salmon, cheese creme, cucumber, cherry tomatoes, lola, balsamic sauce, cherry tomatoes, creme balsamic
+
+            </p>
+          </div>
+          <!-- /.menu-item -->
+          <div class="menu-item">
+            <h4 class="menu__item-title">CIABATTA MANOURI</h4>
+            <span class="menu__item-price">4.60€</span>
+            <p class="menu__item-desc">
+              manouri cheese, creme cheese, smoked turkey, lola
+            </p>
+          </div>
+          <!-- /.menu-item -->
+          <div class="menu-item">
+            <h4 class="menu__item-title">CIABATTA GREEK</h4>
+            <span class="pricing__tag">New</span>
+            <span class="menu__item-price">4.40€</span>
+            <p class="menu__item-desc">tomato, cucumber, olive oils feta cheese</p>
+          </div>
+          <!-- /.menu-item -->
+        </div>
+
+        <div class="col-sm-12 col-md-12 col-lg-6">
+          <div class="menu-item">
+            <h4 class="menu__item-title">CIABATTA ROASTED VEGGIES</h4>
+            <span class="menu__item-price">4.20€</span>
+            <p class="menu__item-desc">
+              creme cheese, zucchini, tricolore peppers, mushrooms lola, tomato
+            </p>
+          </div>
+          <!-- /.menu-item -->
+          
+          <!-- /.menu-item -->
+          <div class="menu-item">
+            <h4 class="menu__item-title">PANINI CHICKEN</h4>
+            <span class="menu__item-price">4.20€</span>
+            <p class="menu__item-desc">
+              chicken fillet, caesar sauce, graviera cheese, lola tomato
+            </p>
+          </div>
+          <div class="menu-item">
+            <h4 class="menu__item-title">BAGUETTE TURKEY</h4>
+            <span class="menu__item-price">4.80€</span>
+            <p class="menu__item-desc">
+              smoked turkey, gouda cheese, creme cheese lola, tomato
+            </p>
+          </div>
+          <!-- /.menu-item -->
+          <div class="menu-item">
+            <h4 class="menu__item-title">BAGUETTE PORK</h4>
+            <span class="pricing__tag">New</span>
+            <span class="menu__item-price">4.20€</span>
+            <p class="menu__item-desc">
+              pork , gouda, mayonnaise, lola tomato
+
+            </p>
+          </div>
+          <!-- /.menu-item -->
+          <div class="menu-item">
+            <h4 class="menu__item-title">TOAST</h4>
+            <span class="pricing__tag">New</span>
+            <span class="menu__item-price">3.50€</span>
+            <p class="menu__item-desc">
+              double gouda cheese, turkey or ham
+            </p>
+          </div>
+          <!-- /.menu-item -->
+        </div>
+      </div>
+      <div style="text-align: center; font-size: 15px; margin-bottom: 10%" class="container">
+        <div class="row">
+          <div class="col-sm-12 col-md-12 col-lg-12">
+            <span class="banner__subtitle">served with green salad or french fries*</span>
+          </div>
+          <!-- /.col-lg-12 -->
+        </div>
+        <!-- /.row -->
+      </div>
+      <!-- /.container -->
+
+      <div style="
+              text-align: center;
+              font-size: 20px;
+              margin-bottom: 10%;
+              margin-top: 10%;
+            " class="container">
+        <div class="row">
+          <div class="col-sm-12 col-md-12 col-lg-12">
+            <span class="banner__subtitle">BURGER</span>
+          </div>
+          <!-- /.col-lg-12 -->
+        </div>
+        <!-- /.row -->
+      </div>
+      <!-- /.container -->
+
+      <div class="row">
+        <div class="col-sm-12 col-md-12 col-lg-6">
+          <div class="menu-item">
+            <h4 class="menu__item-title">CRISPY CHICKEN</h4>
+            <span class="pricing__tag">New</span>
+            <span class="menu__item-price">4.40€</span>
+            <p class="menu__item-desc">
+              cheddar sauce, crispy bacon, lola, tomato mayonnaise, ketchup
+            </p>
+          </div>
+          <!-- /.menu-item -->
+
+          <div class="menu-item">
+            <h4 class="menu__item-title">BBQ.</h4>
+            <span class="menu__item-price">4.20€</span>
+            <p class="menu__item-desc">
+              meat patty, cheddar, bbq sauce, crispy bacon lola, tomato
+            </p>
+          </div>
+          <!-- /.menu-item -->
+          <div class="menu-item">
+            <h4 class="menu__item-title">FRIED EGG</h4>
+            <span class="menu__item-price">7.60€</span>
+            <p class="menu__item-desc">
+              meat patty, cheddar, crispy bacon, fried egg, lola tomato, ketchup, mayonnaise
+            </p>
+          </div>
+          <!-- /.menu-item -->
+        </div>
+        <div class="col-sm-12 col-md-12 col-lg-6">
+          <div class="menu-item">
+            <h4 class="menu__item-title">DROP’S BURGER</h4>
+            <span class="menu__item-price">8.20€</span>
+            <p class="menu__item-desc">
+              meat patty, cheese creme, bbq sauce, lola tomato caramelised onions, onion chips crispy bacon, cheddar sauce
+            </p>
+          </div>
+          <!-- /.menu-item -->
+          <div class="menu-item">
+            <h4 class="menu__item-title">FETA SAUCE</h4>
+            <span class="pricing__tag">New</span>
+            <span class="menu__item-price">8.20€</span>
+            <p class="menu__item-desc">
+              meat patty, feta sauce, crispy bacon, lola, tomato bbq sauce, arugula
+            </p>
+          </div>
+          <!-- /.menu-item -->
+          <div class="menu-item">
+            <h4 class="menu__item-title">CLASSIC</h4>
+            <span class="pricing__tag">New</span>
+            <span class="menu__item-price">7.40€</span>
+            <p class="menu__item-desc">
+              meat patty, cheddar sauce, crispy bacon, lola, tomato, ketchup, mayonnaise
+            </p>
+          </div>
+          <!-- /.menu-item -->
+        </div>
+      </div>
+    </div>
+    <!-- /.container -->
+  </section>
+  <!-- /.menu layout 1 -->
+
+  <!-- ========================
+ text Banner layout1
+=========================== -->
+  <section id="mainfoodBanner"
+    class="text-banner text-banner-layout1 text-center bg-overlay bg-overlay-gradient bg-parallax">
+    <div class="bg-img">
+      <img src="assets/images/backgrounds/23.jpg" alt="background" />
+    </div>
+    <svg class="divider-shape" xmlns="http://www.w3.org/2000/svg" width="142" height="17" viewBox="0 0 142 17">
+      <path
+        d="M800,600V583c8.782,15.985,46.811,11.315,56,12a35.721,35.721,0,0,1,15,5m-71,0V583c-8.782,15.985-46.811,11.315-56,12a35.717,35.717,0,0,0-15,5"
+        transform="translate(-729 -583)"></path>
+    </svg>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12 col-md-12 col-lg-12">
+          <span class="banner__subtitle">All Day</span>
+          <h2 class="banner__title">Main Food</h2>
+        </div>
+        <!-- /.col-lg-12 -->
+      </div>
+      <!-- /.row -->
+    </div>
+    <!-- /.container -->
+  </section>
+  <!-- /.textBanner layout1 -->
+
+  <!-- ========================
+  Menu layout 
+=========================== -->
+  <section id="menulayout" class="menu-layout1 pb-80">
+    <div style="text-align: center; font-size: 20px; margin-bottom: 10%" class="container">
+      <div class="row">
+        <div class="col-sm-12 col-md-12 col-lg-12">
+          <span class="banner__subtitle">PASTA</span>
+        </div>
+        <!-- /.col-lg-12 -->
+      </div>
+      <!-- /.row -->
+    </div>
+    <!-- /.container -->
+
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12 col-md-12 col-lg-6">
+          <div class="menu-item">
+            <h4 class="menu__item-title">DROP</h4>
+            <span class="pricing__tag">Νέο</span>
+            <span class="menu__item-price">8.20€</span>
+            <p class="menu__item-desc">
+              crispy chicken, basil pesto, pine cone, florini’s peppers graviera cheese
+            </p>
+          </div>
+          <!-- /.menu-item -->
+          <div class="menu-item">
+            <h4 class="menu__item-title">MEDITERRANEAN</h4>
+            <span class="pricing__tag">Νέο</span>
+
+            <span class="menu__item-price">8.00€</span>
+            <p class="menu__item-desc">
+              chicken fillet, sun-dried tomatoe, baby arugula
+            </p>
+          </div>
+          <!-- /.menu-item -->
+          <div class="menu-item">
+            <h4 class="menu__item-title">CHICKEN BACON</h4>
+            <span class="pricing__tag">Νέο</span>
+
+            <span class="menu__item-price">8.00€</span>
+            <p class="menu__item-desc">
+              chicken fillet, bacon, cherry tomatoes
+            </p>
+          </div>
+          <!-- /.menu-item -->
+        </div>
+        <!-- /.col-lg-6 -->
+        <div class="col-sm-12 col-md-12 col-lg-6">
+          <div class="menu-item">
+            <h4 class="menu__item-title">CARRETIERA</h4>
+            <span class="menu__item-price">8.00€</span>
+            <p class="menu__item-desc">
+              pork belly, tricolore peppers, mushrooms, rum
+            </p>
+          </div>
+          <!-- /.menu-item -->
+          <div class="menu-item">
+            <h4 class="menu__item-title">CARBONARA</h4>
+            <span class="menu__item-price">7.60€</span>
+            <p class="menu__item-desc">bacon, mushrooms, garlic</p>
+          </div>
+          <!-- /.menu-item -->
+          <div class="menu-item">
+            <h4 class="menu__item-title">NAPOLITANE</h4>
+            <span class="menu__item-price">6.80€</span>
+            <p class="menu__item-desc">
+              tomato sauce with fresh aromatic basil
+                        </p>
+          </div>
+          <!-- /.menu-item -->
+        </div>
+        <!-- /.col-lg-6 -->
+      </div>
+      <!-- /.row  -->
+
+      <div style="text-align: center; font-size: 15px; margin-bottom: 10%" class="container">
+        <div class="row">
+          <div class="col-sm-12 col-md-12 col-lg-12">
+            <span class="banner__subtitle">Pennes or linguine / Tomato sauce or creame*</span>
+          </div>
+          <!-- /.col-lg-12 -->
+        </div>
+        <!-- /.row -->
+      </div>
+      <!-- /.container -->
+
+      <div style="text-align: center; font-size: 20px; margin-bottom: 10%" class="container">
+        <div class="row">
+          <div class="col-sm-12 col-md-12 col-lg-12">
+            <span class="banner__subtitle">DROP'S FINEST</span>
+          </div>
+          <!-- /.col-lg-12 -->
+        </div>
+        <!-- /.row -->
+      </div>
+      <!-- /.container -->
+
+      <div class="row">
+        <div class="col-sm-12 col-md-12 col-lg-6">
+          <div class="menu-item">
+            <h4 class="menu__item-title">CHICKEN SAUTE</h4>
+            <span class="menu__item-price">8.80€</span>
+            <p class="menu__item-desc"> with curry sauce
+              </p>
+            </p>
+          </div>
+
+          <!-- /.menu-item -->
+          <div class="menu-item">
+            <h4 class="menu__item-title">CHICKEN FILLET</h4>
+
+            <span class="menu__item-price">8.60€</span>
+            <p class="menu__item-desc">with orange sauce</p>
+          </div>
+          <!-- /.menu-item -->
+          <div class="menu-item">
+            <h4 class="menu__item-title">SCHNITZEL</h4>
+
+            <span class="menu__item-price">7.80€</span>
+            <p class="menu__item-desc">
+              creme sauce with mushrooms, bacon
+            </p>
+          </div>
+          <!-- /.menu-item -->
+        </div>
+        <!-- /.col-lg-6 -->
+        <div class="col-sm-12 col-md-12 col-lg-6">
+          <div class="menu-item">
+            <h4 class="menu__item-title">MEAT PATTY</h4>
+
+            <span class="menu__item-price">8.40€</span>
+            <p class="menu__item-desc">with feta sauce</p>
+          </div>
+          <!-- /.menu-item -->
+          <div class="menu-item">
+            <h4 class="menu__item-title">CHICKEN BITES</h4>
+
+            <span class="menu__item-price">7.20€</span>
+            <p class="menu__item-desc">
+              chilly mayonnaise, bbq sauce, county potatoes            </p>
+          </div>
+          <!-- /.menu-item -->
+        </div>
+        <!-- /.col-lg-6 -->
+      </div>
+      <!-- /.row  -->
+      <div style="text-align: center; font-size: 15px; margin-bottom: 10%" class="container">
+        <div class="row">
+          <div class="col-sm-12 col-md-12 col-lg-12">
+            <span class="banner__subtitle">Served with salad or french fries*</span>
+          </div>
+          <!-- /.col-lg-12 -->
+        </div>
+        <!-- /.row -->
+      </div>
+      <!-- /.container -->
+
+      <div style="text-align: center; font-size: 20px; margin-bottom: 10%" class="container">
+        <div class="row">
+          <div class="col-sm-12 col-md-12 col-lg-12">
+            <span class="banner__subtitle">SALADS</span>
+          </div>
+          <!-- /.col-lg-12 -->
+        </div>
+        <!-- /.row -->
+      </div>
+      <!-- /.container -->
+
+      <div class="row">
+        <div class="col-sm-12 col-md-12 col-lg-6">
+          <div class="menu-item">
+            <h4 class="menu__item-title">CEASAR'S</h4>
+            <span class="menu__item-price">7.60€</span>
+            <p class="menu__item-desc">
+              green salad, chicken fillet, cherry tomatoes, crispy bacon, ceasar dressing, corn, graviera cheese, crouton
+            </p>
+          </div>
+
+          <!-- /.menu-item -->
+          <div class="menu-item">
+            <h4 class="menu__item-title">GREEK</h4>
+
+            <span class="menu__item-price">8.60€</span>
+            <p class="menu__item-desc">
+              cherry tomatoes, cucumber, tricolore peppers, onion olive oil, feta cheese, origano
+            </p>
+          </div>
+          <!-- /.menu-item -->
+        </div>
+        <!-- /.col-lg-6 -->
+        <div class="col-sm-12 col-md-12 col-lg-6">
+          <div class="menu-item">
+            <h4 class="menu__item-title">PASTA</h4>
+
+            <span class="menu__item-price">6.80€</span>
+            <p class="menu__item-desc">
+              chicken fillet, penne, mayonnaise, corn, gouda, cheese
+            </p>
+          </div>
+          <!-- /.menu-item -->
+
+          <div class="menu-item">
+            <h4 class="menu__item-title">DROP</h4>
+
+            <span class="menu__item-price">7.20€</span>
+            <p class="menu__item-desc">
+              green salad, honey dressing, berries, nuts, cherry tomatoes
+            </p>
+          </div>
+          <!-- /.menu-item -->
+        </div>
+        <!-- /.col-lg-6 -->
+      </div>
+      <!-- /.row  -->
+    </div>
+    <!-- /.container -->
+  </section>
+  <!-- /.menu layout 1 -->
+
+  <div style="text-align: center; font-size: 15px; margin-bottom: 10%" class="container">
+    <div class="row">
+      <div class="col-sm-12 col-md-12 col-lg-12">
+        <span class="banner__subtitle">Please inform the staff of the establishment
+          for any allergies or intolerances.</span>
+      </div>
+      <!-- /.col-lg-12 -->
+    </div>
+    <!-- /.row -->
+  </div>
+  <!-- /.container -->
+
+  <!-- ========================
+ text Banner layout1
+=========================== -->
+  <section id="dessertsBanner"
+    class="text-banner text-banner-layout1 text-center bg-overlay bg-overlay-gradient bg-parallax">
+    <div class="bg-img">
+      <img src="assets/images/backgrounds/24.jpg" alt="background" />
+    </div>
+    <svg class="divider-shape" xmlns="http://www.w3.org/2000/svg" width="142" height="17" viewBox="0 0 142 17">
+      <path
+        d="M800,600V583c8.782,15.985,46.811,11.315,56,12a35.721,35.721,0,0,1,15,5m-71,0V583c-8.782,15.985-46.811,11.315-56,12a35.717,35.717,0,0,0-15,5"
+        transform="translate(-729 -583)"></path>
+    </svg>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12 col-md-12 col-lg-12">
+          <span class="banner__subtitle">All Day</span>
+          <h2 class="banner__title">Dessert Menu</h2>
+        </div>
+        <!-- /.col-lg-12 -->
+      </div>
+      <!-- /.row -->
+    </div>
+    <!-- /.container -->
+  </section>
+  <!-- /.textBanner layout1 -->
+
+  <!-- ========================
+  Menu layout 
+=========================== -->
+  <section id="menuLayout1" class="menu-layout1 pb-80">
+    <div class="container">
+      <div style="text-align: center; font-size: 20px; margin-bottom: 10%" class="container">
+        <div class="row">
+          <div class="col-sm-12 col-md-12 col-lg-12">
+            <span class="banner__subtitle">SPECIAL</span>
+          </div>
+          <!-- /.col-lg-12 -->
+        </div>
+        <!-- /.row -->
+      </div>
+      <!-- /.container -->
+
+      <div class="row">
+        <div class="col-sm-12 col-md-12 col-lg-6">
+          <div class="menu-item">
+            <h4 class="menu__item-title">PROFITEROLE</h4>
+            <span class="pricing__tag">Νέο</span>
+            <span class="menu__item-price">7.00€</span>
+            <p class="menu__item-desc">
+              nuts, ganaz or bueno praline
+            </p>
+          </div>
+          <!-- /.menu-item -->
+          <div class="menu-item">
+            <h4 class="menu__item-title">CHOCOLATE SHOUFFLE</h4>
+            <span class="menu__item-price">6.40€</span>
+            <p class="menu__item-desc">ice cream of your choice</p>
+          </div>
+          <!-- /.menu-item -->
+          <div class="menu-item">
+            <h4 class="menu__item-title">FRENCH TOASTS DROP</h4>
+            <span class="menu__item-price">5.80€</span>
+            <p class="menu__item-desc">
+              milk bread, patisserie creme, strawberries, merenda
+            </p>
+          </div>
+          <!-- /.menu-item -->
+        </div>
+        <!-- /.col-lg-6 -->
+        <div class="col-sm-12 col-md-12 col-lg-6">
+          <div class="menu-item">
+            <h4 class="menu__item-title">HEALTHY FRENCH TOAST'S</h4>
+            <span class="menu__item-price">5.40€</span>
+            <p class="menu__item-desc">
+              milk bread, tahini, honey, nut, banana
+            </p>
+          </div>
+          <!-- /.menu-item -->
+          <div class="menu-item">
+            <h4 class="menu__item-title">CARAMEL SOUFFLE</h4>
+            <span class="menu__item-price">6.40€</span>
+            <p class="menu__item-desc">ice cream of your choice</p>
+          </div>
+          <!-- /.menu-item -->
+        </div>
+        <!-- /.col-lg-6 -->
+      </div>
+      <!-- /.row  -->
+
+      <div style="text-align: center; font-size: 20px; margin-bottom: 10%" class="container">
+        <div class="row">
+          <div class="col-sm-12 col-md-12 col-lg-12">
+            <span class="banner__subtitle">SWEET PANCAKES</span>
+          </div>
+          <!-- /.col-lg-12 -->
+        </div>
+        <!-- /.row -->
+      </div>
+      <!-- /.container -->
+
+      <div class="row">
+        <div class="col-sm-12 col-md-12 col-lg-6">
+          <div class="menu-item">
+            <h4 class="menu__item-title">DROP</h4>
+            <span class="pricing__tag">Νέο</span>
+            <span class="menu__item-price">6.80€</span>
+            <p class="menu__item-desc">
+              merenda, bueno praline, oreo biscuit, petit beurre biscuits banana
+            </p>
+          </div>
+          <!-- /.menu-item -->
+          <div class="menu-item">
+            <h4 class="menu__item-title">ΟRΕΟ</h4>
+            <span class="menu__item-price">7.20€</span>
+            <p class="menu__item-desc">
+              merenda, white chocolate praline, oreo biscuit, berries            </p>
+          </div>
+          <!-- /.menu-item -->
+          <div class="menu-item">
+            <h4 class="menu__item-title">LILA PAUSE</h4>
+            <span class="menu__item-price">6.20€</span>
+            <p class="menu__item-desc">
+              merenda, strawberry praline, oreo biscuit, strawberries
+            </p>
+          </div>
+          <!-- /.menu-item -->
+        </div>
+        <!-- /.col-lg-6 -->
+        <div class="col-sm-12 col-md-12 col-lg-6">
+          <div class="menu-item">
+            <h4 class="menu__item-title">BUENO</h4>
+            <span class="menu__item-price">6.20€</span>
+            <p class="menu__item-desc">
+              bueno praline, petit beurre biscuits, strawberries
+            </p>
+          </div>
+          <!-- /.menu-item -->
+          <div class="menu-item">
+            <h4 class="menu__item-title">WHITE CHOCOLATE</h4>
+            <span class="menu__item-price">5.80€</span>
+            <p class="menu__item-desc">
+              white chocolate praline, berries, petit beurre biscuits
+            </p>
+          </div>
+          <!-- /.menu-item -->
+
+          <div class="menu-item">
+            <h4 class="menu__item-title">MERENDA</h4>
+            <span class="menu__item-price">5.20€</span>
+            <p class="menu__item-desc">merenda, petit beurre biscuits</p>
+          </div>
+          <!-- /.menu-item -->
+        </div>
+        <!-- /.col-lg-6 -->
+      </div>
+      <!-- /.row  -->
+
+      <div style="text-align: center; font-size: 20px; margin-bottom: 10%" class="container">
+        <div class="row">
+          <div class="col-sm-12 col-md-12 col-lg-12">
+            <span class="banner__subtitle">Make your own <b>WAFFLE - CREPE</b> 3.50€ add extra</span>
+          </div>
+          <!-- /.col-lg-12 -->
+        </div>
+        <!-- /.row -->
+      </div>
+      <!-- /.container -->
+
+      <div class="row">
+        <div class="col-sm-12 col-md-12 col-lg-6">
+          <div class="menu-item">
+            <h4 class="menu__item-title">STRAWBERRY PRALINE</h4>
+            <span class="menu__item-price">1.00€</span>
+          </div>
+          <!-- /.menu-item -->
+          <div class="menu-item">
+            <h4 class="menu__item-title">MERENDA</h4>
+            <span class="menu__item-price">1.00€</span>
+          </div>
+          <!-- /.menu-item -->
+          <div class="menu-item">
+            <h4 class="menu__item-title">PETIT BUERRE</h4>
+            <span class="menu__item-price">0.60€</span>
+          </div>
+          <!-- /.menu-item -->
+
+          <div class="menu-item">
+            <h4 class="menu__item-title">OREO</h4>
+            <span class="menu__item-price">0.60€</span>
+          </div>
+          <!-- /.menu-item -->
+
+          <div class="menu-item">
+            <h4 class="menu__item-title">FRESH FRUITS</h4>
+            <span class="menu__item-price">0.60€</span>
+          </div>
+          <!-- /.menu-item -->
+        </div>
+        <!-- /.col-lg-6 -->
+        <div class="col-sm-12 col-md-12 col-lg-6">
+          <div class="menu-item">
+            <h4 class="menu__item-title">WHITE CHOCOLATE PRALINE</h4>
+            <span class="menu__item-price">1.00€</span>
+          </div>
+          <!-- /.menu-item -->
+          <div class="menu-item">
+            <h4 class="menu__item-title">BUENO PRALINE</h4>
+            <span class="menu__item-price">1.00€</span>
+          </div>
+          <!-- /.menu-item -->
+
+          <div class="menu-item">
+            <h4 class="menu__item-title">NUTS</h4>
+            <span class="menu__item-price">0.60€</span>
+          </div>
+          <!-- /.menu-item -->
+
+          <div class="menu-item">
+            <h4 class="menu__item-title">BERRIES</h4>
+            <span class="menu__item-price">0.60€</span>
+          </div>
+          <!-- /.menu-item -->
+        </div>
+        <!-- /.col-lg-6 -->
+      </div>
+      <!-- /.row  -->
+
+      <div style="text-align: center; font-size: 20px; margin-bottom: 10%" class="container">
+        <div class="row">
+          <div class="col-sm-12 col-md-12 col-lg-12">
+            <span class="banner__subtitle">ICE CREAM</span>
+          </div>
+          <!-- /.col-lg-12 -->
+        </div>
+        <!-- /.row -->
+      </div>
+      <!-- /.container -->
+
+      <div class="row">
+        <div class="col-sm-12 col-md-12 col-lg-6">
+          <div class="menu-item">
+            <h4 class="menu__item-title">MADAGASCAR VANILLA</h4>
+            <span class="menu__item-price">2.00€</span>
+          </div>
+          <!-- /.menu-item -->
+          <div class="menu-item">
+            <h4 class="menu__item-title">CHOCOLATE</h4>
+            <span class="menu__item-price">2.00€</span>
+          </div>
+          <!-- /.menu-item -->
+        </div>
+        <!-- /.col-lg-6 -->
+        <div class="col-sm-12 col-md-12 col-lg-6">
+          <div class="menu-item">
+            <h4 class="menu__item-title">STRAWBERRY</h4>
+            <span class="menu__item-price">2.00€</span>
+          </div>
+          <!-- /.menu-item -->
+          <div class="menu-item">
+            <h4 class="menu__item-title">BISCUIT</h4>
+            <span class="menu__item-price">2.00€</span>
+          </div>
+          <!-- /.menu-item -->
+        </div>
+        <!-- /.col-lg-6 -->
+      </div>
+      <!-- /.row  -->
+    </div>
+    <!-- /.container -->
+  </section>
+  <!-- /.menu layout 1 -->
+
+  <!-- ========================
+ text Banner layout1
+=========================== -->
+  <section id="coffeeteaBanner"
+    class="text-banner text-banner-layout1 text-center bg-overlay bg-overlay-gradient bg-parallax">
+    <div class="bg-img">
+      <img src="assets/images/backgrounds/25.jpg" alt="background" />
+    </div>
+    <svg class="divider-shape" xmlns="http://www.w3.org/2000/svg" width="142" height="17" viewBox="0 0 142 17">
+      <path
+        d="M800,600V583c8.782,15.985,46.811,11.315,56,12a35.721,35.721,0,0,1,15,5m-71,0V583c-8.782,15.985-46.811,11.315-56,12a35.717,35.717,0,0,0-15,5"
+        transform="translate(-729 -583)"></path>
+    </svg>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12 col-md-12 col-lg-12">
+          <span class="banner__subtitle">TOP QUALITY!</span>
+          <h2 class="banner__title">Coffee & Tea</h2>
+        </div>
+        <!-- /.col-lg-12 -->
+      </div>
+      <!-- /.row -->
+    </div>
+    <!-- /.container -->
+  </section>
+  <!-- /.textBanner layout1 -->
+
+  <!-- ========================
+  Menu layout 
+=========================== -->
+  <section id="menuLayout" class="menu-layout1 pb-80">
+    <div class="container">
+      <div style="text-align: center; font-size: 20px; margin-bottom: 10%" class="container">
+        <div class="row">
+          <div class="col-sm-12 col-md-12 col-lg-12">
+            <span class="banner__subtitle">COFFEE</span>
+          </div>
+          <!-- /.col-lg-12 -->
+        </div>
+        <!-- /.row -->
+      </div>
+      <!-- /.container -->
+
+      <div class="row">
+        <div class="col-sm-12 col-md-12 col-lg-6">
+          <div class="menu-item">
+            <h4 class="menu__item-title">ESPRESSO</h4>
+            <span class="menu__item-price">2.50€</span>
+          </div>
+          <!-- /.menu-item -->
+          <div class="menu-item">
+            <h4 class="menu__item-title">ESPRESSO AMERICANO</h4>
+            <span class="menu__item-price">2.50€</span>
+          </div>
+          <!-- /.menu-item -->
+
+          <div class="menu-item">
+            <h4 class="menu__item-title">ESPRESSO LUNGO</h4>
+            <span class="menu__item-price">2.50€</span>
+          </div>
+          <!-- /.menu-item -->
+          <div class="menu-item">
+            <h4 class="menu__item-title">CAPPUCCINO</h4>
+            <span class="menu__item-price">3.50€</span>
+          </div>
+          <!-- /.menu-item -->
+
+          <div class="menu-item">
+            <h4 class="menu__item-title">FREDO ESPRESSO</h4>
+            <span class="menu__item-price">2.50€</span>
+          </div>
+          <!-- /.menu-item -->
+          <div class="menu-item">
+            <h4 class="menu__item-title">FREDO ESPRESSO XL</h4>
+            <span class="menu__item-price">4.20€</span>
+          </div>
+          <!-- /.menu-item -->
+
+          <div class="menu-item">
+            <h4 class="menu__item-title">FRAPE</h4>
+            <span class="menu__item-price">3.00€</span>
+          </div>
+          <!-- /.menu-item -->
+          <div class="menu-item">
+            <h4 class="menu__item-title">GREEK</h4>
+            <span class="menu__item-price">2.50€</span>
+          </div>
+          <!-- /.menu-item -->
+          <div class="menu-item">
+            <h4 class="menu__item-title">FILTER COFFEE</h4>
+            <span class="menu__item-price">3.00€</span>
+          </div>
+          <!-- /.menu-item -->
+        </div>
+        <!-- /.col-lg-6 -->
+        <div class="col-sm-12 col-md-12 col-lg-6">
+          <div class="menu-item">
+            <h4 class="menu__item-title">DOUBLE ESPRESSO</h4>
+            <span class="menu__item-price">3.00€</span>
+          </div>
+          <!-- /.menu-item -->
+          <div class="menu-item">
+            <h4 class="menu__item-title">DOUBLE ESPRESSO AMERICANO</h4>
+            <span class="menu__item-price">3.00€</span>
+          </div>
+          <!-- /.menu-item -->
+
+          <div class="menu-item">
+            <h4 class="menu__item-title">DOUBLE ESPRESSO LUNGO</h4>
+            <span class="menu__item-price">3.00€</span>
+          </div>
+          <!-- /.menu-item -->
+          <div class="menu-item">
+            <h4 class="menu__item-title">DOUBLE CAPPUCCINO</h4>
+            <span class="menu__item-price">4.00€</span>
+          </div>
+          <!-- /.menu-item -->
+
+          <div class="menu-item">
+            <h4 class="menu__item-title">FREDO CAPPUCCINO</h4>
+            <span class="menu__item-price">3.50€</span>
+          </div>
+          <!-- /.menu-item -->
+          <div class="menu-item">
+            <h4 class="menu__item-title">LATTE MACCHIATO</h4>
+            <span class="menu__item-price">4.00€</span>
+          </div>
+          <!-- /.menu-item -->
+
+          <div class="menu-item">
+            <h4 class="menu__item-title">NESCAFE</h4>
+            <span class="menu__item-price">3.00€</span>
+          </div>
+          <!-- /.menu-item -->
+          <div class="menu-item">
+            <h4 class="menu__item-title">DOUBLE GREEK</h4>
+            <span class="menu__item-price">3.20€</span>
+          </div>
+          <!-- /.menu-item -->
+          <div class="menu-item">
+            <h4 class="menu__item-title">IRISH COFFEE</h4>
+            <span class="menu__item-price">5.00€</span>
+          </div>
+          <!-- /.menu-item -->
+        </div>
+        <!-- /.col-lg-6 -->
+        <div style="text-align: center; font-size: 20px; margin-bottom: 10%" class="container">
+          <div class="row">
+            <div class="col-sm-12 col-md-12 col-lg-12">
+              <span class="banner__subtitle">plant milk +0.50€, decaf single +0.30€, decaf double
+                +0.60€</span>
+            </div>
+            <!-- /.col-lg-12 -->
+          </div>
+          <!-- /.row -->
+        </div>
+        <!-- /.container -->
+      </div>
+      <!-- /.container -->
+
+      <div style="text-align: center; font-size: 20px; margin-bottom: 10%" class="container">
+        <div class="row">
+          <div class="col-sm-12 col-md-12 col-lg-12">
+            <span class="banner__subtitle">TEA </span>
+          </div>
+          <!-- /.col-lg-12 -->
+        </div>
+        <!-- /.row -->
+      </div>
+      <!-- /.container -->
+      <div class="row">
+        <div class="col-sm-12 col-md-12 col-lg-6">
+          <div style="text-align: center; font-size: 20px; margin-bottom: 5%" class="container">
+            <div class="row">
+              <div class="col-sm-12 col-md-12 col-lg-12">
+                <span class="banner__subtitle">GREEN </span>
+              </div>
+              <!-- /.col-lg-12 -->
+            </div>
+            <!-- /.row -->
+          </div>
+          <!-- /.container -->
+
+          <div class="menu-item">
+            <h4 class="menu__item-title">MIROMENOS THAMNOS</h4>
+            <span class="menu__item-price">2.50€</span>
+          </div>
+          <!-- /.menu-item -->
+          <div class="menu-item">
+            <h4 class="menu__item-title">DAKRI CHIOS</h4>
+            <span class="menu__item-price">2.50€</span>
+          </div>
+          <!-- /.menu-item -->
+        </div>
+        <!-- /.col-lg-6 -->
+        <div class="col-sm-12 col-md-12 col-lg-6">
+          <div style="text-align: center; font-size: 20px; margin-bottom: 5%" class="container">
+            <div class="row">
+              <div class="col-sm-12 col-md-12 col-lg-12">
+                <span class="banner__subtitle">HERBS </span>
+              </div>
+              <!-- /.col-lg-12 -->
+            </div>
+            <!-- /.row -->
+          </div>
+          <!-- /.container -->
+
+          <div class="menu-item">
+            <h4 class="menu__item-title">CHAMOMILLE</h4>
+            <span class="menu__item-price">3.00€</span>
+          </div>
+          <!-- /.menu-item -->
+          <div class="menu-item">
+            <h4 class="menu__item-title">SAMOURAI</h4>
+            <span class="menu__item-price">3.00€</span>
+          </div>
+          <!-- /.menu-item -->
+        </div>
+        <!-- /.col-lg-6 -->
+      </div>
+
+      <div class="row">
+        <div class="col-sm-12 col-md-12 col-lg-6">
+          <div style="text-align: center; font-size: 20px; margin-bottom: 5%" class="container">
+            <div class="row">
+              <div class="col-sm-12 col-md-12 col-lg-12">
+                <span class="banner__subtitle">BLACK </span>
+              </div>
+              <!-- /.col-lg-12 -->
+            </div>
+            <!-- /.row -->
+          </div>
+          <!-- /.container -->
+
+          <div class="menu-item">
+            <h4 class="menu__item-title">KEILANIS</h4>
+            <span class="menu__item-price">3.00€</span>
+          </div>
+          <!-- /.menu-item -->
+          <div class="menu-item">
+            <h4 class="menu__item-title">RED FRUITS</h4>
+            <span class="menu__item-price">3.00€</span>
+          </div>
+          <!-- /.menu-item -->
+
+          <div class="menu-item">
+            <h4 class="menu__item-title">HAZELNUT</h4>
+            <span class="menu__item-price">3.00€</span>
+          </div>
+          <!-- /.menu-item -->
+          <div class="menu-item">
+            <h4 class="menu__item-title">CARAMEL</h4>
+            <span class="menu__item-price">3.00€</span>
+          </div>
+          <!-- /.menu-item -->
+        </div>
+        <!-- /.col-lg-6 -->
+        <div class="col-sm-12 col-md-12 col-lg-6">
+          <div style="text-align: center; font-size: 20px; margin-bottom: 5%" class="container">
+            <div class="row">
+              <div class="col-sm-12 col-md-12 col-lg-12">
+                <span class="banner__subtitle">AROMATIC </span>
+              </div>
+              <!-- /.col-lg-12 -->
+            </div>
+            <!-- /.row -->
+          </div>
+          <!-- /.container -->
+
+          <div class="menu-item">
+            <h4 class="menu__item-title">RED SQUARE </h4>
+            <span class="menu__item-price">3.00€</span>
+          </div>
+          <!-- /.menu-item -->
+          <div class="menu-item">
+            <h4 class="menu__item-title">APPLE - BLACKBERRY</h4>
+            <span class="menu__item-price">3.00€</span>
+          </div>
+          <!-- /.menu-item -->
+        </div>
+        <!-- /.col-lg-6 -->
+      </div>
+
+      <div style="text-align: center; font-size: 20px; margin-bottom: 10%" class="container">
+        <div class="row">
+          <div class="col-sm-12 col-md-12 col-lg-12">
+            <span class="banner__subtitle">ΙCE TEA </span>
+          </div>
+          <!-- /.col-lg-12 -->
+        </div>
+        <!-- /.row -->
+      </div>
+      <!-- /.container -->
+      <div class="row">
+        <div class="col-sm-12 col-md-12 col-lg-6">
+          <div class="menu-item">
+            <h4 class="menu__item-title">LEMON</h4>
+            <span class="menu__item-price">2.80€</span>
+          </div>
+          <!-- /.menu-item -->
+          <div class="menu-item">
+            <h4 class="menu__item-title">GREEN</h4>
+            <span class="menu__item-price">2.80€</span>
+          </div>
+          <!-- /.menu-item -->
+        </div>
+        <!-- /.col-lg-6 -->
+        <div class="col-sm-12 col-md-12 col-lg-6">
+          <div class="menu-item">
+            <h4 class="menu__item-title">PEACH</h4>
+            <span class="menu__item-price">2.80€</span>
+          </div>
+          <!-- /.menu-item -->
+        </div>
+        <!-- /.col-lg-6 -->
+      </div>
+
+      <div style="text-align: center; font-size: 20px; margin-bottom: 10%" class="container">
+        <div class="row">
+          <div class="col-sm-12 col-md-12 col-lg-12">
+            <span class="banner__subtitle">CHOCOLATES </span>
+          </div>
+          <!-- /.col-lg-12 -->
+        </div>
+        <!-- /.row -->
+      </div>
+      <!-- /.container -->
+      <div class="row">
+        <div class="col-sm-12 col-md-12 col-lg-6">
+          <div class="menu-item">
+            <h4 class="menu__item-title">COLD / HOT</h4>
+            <span class="menu__item-price">4.00€</span>
+          </div>
+          <!-- /.menu-item -->
+          <div class="menu-item">
+            <h4 class="menu__item-title">WHITE</h4>
+            <span class="menu__item-price">4.00€</span>
+          </div>
+          <!-- /.menu-item -->
+
+          <div class="menu-item">
+            <h4 class="menu__item-title">MIXED</h4>
+            <span class="menu__item-price">4.00€</span>
+          </div>
+          <!-- /.menu-item -->
+        </div>
+        <!-- /.col-lg-6 -->
+        <div class="col-sm-12 col-md-12 col-lg-6">
+          <div class="menu-item">
+            <h4 class="menu__item-title">VIENNOIS</h4>
+            <span class="menu__item-price">4.50€</span>
+          </div>
+          <!-- /.menu-item -->
+
+          <div class="menu-item">
+            <h4 class="menu__item-title">WHITE VIENNOIS</h4>
+            <span class="menu__item-price">4.50€</span>
+          </div>
+          <!-- /.menu-item -->
+        </div>
+        <!-- /.col-lg-6 -->
+
+        <div style="text-align: center; font-size: 20px; margin-bottom: 10%" class="container">
+          <div class="row">
+            <div class="col-sm-12 col-md-12 col-lg-12">
+              <span class="banner__subtitle">Flavors / Syrops <br>
+                Strawberry, Banana, Salted Caramel, Caramel, Hazelnut, Mochaccino, Vanilla...<b>0.60€</b>
+              </span>
+            </div>
+            <!-- /.col-lg-12 -->
+          </div>
+          <!-- /.row -->
+        </div>
+        <!-- /.container -->
+      </div>
+
+      <div style="text-align: center; font-size: 20px; margin-bottom: 10%" class="container">
+        <div class="row">
+          <div class="col-sm-12 col-md-12 col-lg-12">
+            <span class="banner__subtitle">MILKSHAKE </span>
+          </div>
+          <!-- /.col-lg-12 -->
+        </div>
+        <!-- /.row -->
+      </div>
+      <!-- /.container -->
+      <div class="row">
+        <div class="col-sm-12 col-md-12 col-lg-6">
+          <div class="menu-item">
+            <h4 class="menu__item-title">VANILLA MADAGASCAR...</h4>
+            <span class="menu__item-price">5.00€</span>
+
+          </div>
+          <!-- /.menu-item -->
+          <div class="menu-item">
+            <h4 class="menu__item-title">CHOCOLATE</h4>
+            <span class="menu__item-price">5.00€</span>
+
+          </div>
+          <!-- /.menu-item -->
+
+          <div class="menu-item">
+            <h4 class="menu__item-title">STRAWBERRY</h4>
+            <span class="menu__item-price">5.00€</span>
+
+          </div>
+          <!-- /.menu-item -->
+        </div>
+        <!-- /.col-lg-6 -->
+        <div class="col-sm-12 col-md-12 col-lg-6">
+          <div class="menu-item">
+            <h4 class="menu__item-title">BANANA</h4>
+            <span class="menu__item-price">5.00€</span>
+
+          </div>
+          <!-- /.menu-item -->
+
+          <div class="menu-item">
+            <h4 class="menu__item-title">BISCUIT </h4>
+            <span class="menu__item-price">5.00€</span>
+
+          </div>
+          <!-- /.menu-item -->
+          <div class="menu-item">
+            <h4 class="menu__item-title">CARAMEL </h4>
+            <span class="menu__item-price">5.00€</span>
+          </div>
+        </div>
+        <!-- /.col-lg-6 -->
+      </div>
+
+      <div style="text-align: center; font-size: 20px; margin-bottom: 10%" class="container">
+        <div class="row">
+          <div class="col-sm-12 col-md-12 col-lg-12">
+            <span class="banner__subtitle">SMOOTHIES </span>
+          </div>
+          <!-- /.col-lg-12 -->
+        </div>
+        <!-- /.row -->
+      </div>
+      <!-- /.container -->
+      <div class="row">
+        <div class="col-sm-12 col-md-12 col-lg-6">
+          <div class="menu-item">
+            <h4 class="menu__item-title">BERRY BURST</h4>
+
+            <span class="menu__item-price">5.00€</span>
+            <p class="menu__item-desc">
+              berries, raisin, blueberry, banana
+
+            </p>
+          </div>
+          <!-- /.menu-item -->
+          <div class="menu-item">
+            <h4 class="menu__item-title">STRAWBERRY FANTASY</h4>
+
+            <span class="menu__item-price">5.00€</span>
+            <p class="menu__item-desc">strawberry, banana</p>
+          </div>
+          <!-- /.menu-item -->
+        </div>
+        <!-- /.col-lg-6 -->
+        <div class="col-sm-12 col-md-12 col-lg-6">
+          <div class="menu-item">
+            <h4 class="menu__item-title">PINEAPPLE SUNSET</h4>
+            <span class="menu__item-price">5.00€</span>
+            <p class="menu__item-desc">pineapple, papaya, mango</p>
+          </div>
+          <!-- /.menu-item -->
+
+          <div class="menu-item">
+            <h4 class="menu__item-title">GREEN RIVER</h4>
+            <span class="menu__item-price">5.00€</span>
+            <p class="menu__item-desc">
+              kale, mango, banana, lemongrass
+            </p>
+          </div>
+          <!-- /.menu-item -->
+        </div>
+        <!-- /.col-lg-6 -->
+      </div>
+
+      <div style="text-align: center; font-size: 20px; margin-bottom: 10%" class="container">
+        <div class="row">
+          <div class="col-sm-12 col-md-12 col-lg-12">
+            <span class="banner__subtitle">SOFT DRINKS </span>
+          </div>
+          <!-- /.col-lg-12 -->
+        </div>
+        <!-- /.row -->
+      </div>
+      <!-- /.container -->
+      <div class="row">
+        <div class="col-sm-12 col-md-12 col-lg-6">
+          <div class="menu-item">
+            <h4 class="menu__item-title">COCA COLA / ZERO</h4>
+            <span class="menu__item-price">2.80€</span>
+          </div>
+          <!-- /.menu-item -->
+          <div class="menu-item">
+            <h4 class="menu__item-title">FANTA ORANGE</h4>
+            <span class="menu__item-price">2.80€</span>
+          </div>
+          <!-- /.menu-item -->
+          <div class="menu-item">
+            <h4 class="menu__item-title">SODA</h4>
+            <span class="menu__item-price">2.80€</span>
+          </div>
+          <!-- /.menu-item -->
+          <div class="menu-item">
+            <h4 class="menu__item-title">AEGEAN TONIC</h4>
+            <span class="menu__item-price">2.80€</span>
+          </div>
+          <!-- /.menu-item -->
+          <div class="menu-item">
+            <h4 class="menu__item-title">GENTLEMAN SODA</h4>
+            <span class="menu__item-price">3.80€</span>
+          </div>
+          <!-- /.menu-item -->
+          <div class="menu-item">
+            <h4 class="menu__item-title">SOUROTI</h4>
+            <span class="menu__item-price">3.80€</span>
+          </div>
+          <!-- /.menu-item -->
+          <div class="menu-item">
+            <h4 class="menu__item-title">SOUROTI FRAGRANCE - MINT</h4>
+            <span class="menu__item-price">2.80€</span>
+          </div>
+          <!-- /.menu-item -->
+        </div>
+        <!-- /.col-lg-6 -->
+        <div class="col-sm-12 col-md-12 col-lg-6">
+          <div class="menu-item">
+            <h4 class="menu__item-title">SPRITE</h4>
+            <span class="menu__item-price">2.80€</span>
+          </div>
+          <!-- /.menu-item -->
+          <div class="menu-item">
+            <h4 class="menu__item-title">FANTA LEMON</h4>
+            <span class="menu__item-price">2.80€</span>
+          </div>
+          <!-- /.menu-item -->
+          <div class="menu-item">
+            <h4 class="menu__item-title">GRAPEFRUIT SODA</h4>
+            <span class="menu__item-price">3.80€</span>
+          </div>
+          <!-- /.menu-item -->
+          <div class="menu-item">
+            <h4 class="menu__item-title">PERRIER</h4>
+            <span class="menu__item-price">3.80€</span>
+          </div>
+          <!-- /.menu-item -->
+          <div class="menu-item">
+            <h4 class="menu__item-title">RED BULL</h4>
+            <span class="menu__item-price">4.00€</span>
+          </div>
+          <!-- /.menu-item -->
+          <div class="menu-item">
+            <h4 class="menu__item-title">SOUROTI CUCUMBER - LIME</h4>
+            <span class="menu__item-price">3.80€</span>
+          </div>
+          <!-- /.menu-item -->
+          <div class="menu-item">
+            <h4 class="menu__item-title">SOUROTI LEMON - LIME</h4>
+            <span class="menu__item-price">2.80€</span>
+          </div>
+          <!-- /.menu-item -->
+        </div>
+        <!-- /.col-lg-6 -->
+      </div>
+
+      <div style="text-align: center; font-size: 20px; margin-bottom: 10%" class="container">
+        <div class="row">
+          <div class="col-sm-12 col-md-12 col-lg-12">
+            <span class="banner__subtitle">FRESH  JUICE </span>
+          </div>
+          <!-- /.col-lg-12 -->
+        </div>
+        <!-- /.row -->
+      </div>
+      <!-- /.container -->
+      <div class="row">
+        <div class="col-sm-12 col-md-12 col-lg-6">
+          <div class="menu-item">
+            <h4 class="menu__item-title">ORANGE JUICE</h4>
+
+            <span class="menu__item-price">3.50€</span>
+          </div>
+          <!-- /.menu-item -->
+          <div class="menu-item">
+            <h4 class="menu__item-title">
+              TOASTED WITH SEASONAL FRUITS
+            </h4>
+
+            <span class="menu__item-price">2.80€</span>
+          </div>
+          <!-- /.menu-item -->
+        </div>
+        <!-- /.col-lg-6 -->
+        <div class="col-sm-12 col-md-12 col-lg-6">
+          <div class="menu-item">
+            <h4 class="menu__item-title">POMEGRANATE</h4>
+            <span class="menu__item-price">5.00€</span>
+          </div>
+          <!-- /.menu-item -->
+        </div>
+        <!-- /.col-lg-6 -->
+      </div>
+    </div>
+    <!-- /.container -->
+  </section>
+  <!-- /.menu layout 1 -->
+
+  <section id="beerswinesBanner"
+    class="text-banner text-banner-layout1 text-center bg-overlay bg-overlay-gradient bg-parallax">
+    <div class="bg-img">
+      <img src="assets/images/backgrounds/26.jpg" alt="background" />
+    </div>
+    <svg class="divider-shape" xmlns="http://www.w3.org/2000/svg" width="142" height="17" viewBox="0 0 142 17">
+      <path
+        d="M800,600V583c8.782,15.985,46.811,11.315,56,12a35.721,35.721,0,0,1,15,5m-71,0V583c-8.782,15.985-46.811,11.315-56,12a35.717,35.717,0,0,0-15,5"
+        transform="translate(-729 -583)"></path>
+    </svg>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12 col-md-12 col-lg-12">
+          <span class="banner__subtitle">New additions!!</span>
+          <h2 class="banner__title">Beers & Wines</h2>
+        </div>
+        <!-- /.col-lg-12 -->
+      </div>
+      <!-- /.row -->
+    </div>
+    <!-- /.container -->
+  </section>
+  <!-- /.textBanner layout1 -->
+
+  <section id="beerswines" class="menu-layout1 pb-80">
+    <div class="container">
+      <div style="text-align: center; font-size: 20px; margin-bottom: 10%" class="container">
+        <div class="row">
+          <div class="col-sm-12 col-md-12 col-lg-12">
+            <span class="banner__subtitle">BEERS</span>
+          </div>
+          <!-- /.col-lg-12 -->
+        </div>
+        <!-- /.row -->
+      </div>
+      <!-- /.container -->
+
+      <div class="row">
+        <div class="col-sm-12 col-md-12 col-lg-6">
+          <div class="menu-item">
+            <h4 class="menu__item-title">DRAFT 330 ML</h4>
+            <span class="menu__item-price">4.00€</span>
+          </div>
+          <!-- /.menu-item -->
+          <div class="menu-item">
+            <h4 class="menu__item-title">DRAFT 550 ML</h4>
+            <span class="menu__item-price">5.00€</span>
+          </div>
+          <!-- /.menu-item -->
+
+          <div class="menu-item">
+            <h4 class="menu__item-title">DRAFT 1 LT</h4>
+            <span class="menu__item-price">12.00€</span>
+          </div>
+          <!-- /.menu-item -->
+          <div class="menu-item">
+            <h4 class="menu__item-title">HEINEKEN 330ML</h4>
+            <span class="menu__item-price">4.00€</span>
+          </div>
+          <!-- /.menu-item -->
+
+          <div class="menu-item">
+            <h4 class="menu__item-title">CORONA</h4>
+            <span class="menu__item-price">5.00€</span>
+          </div>
+          <!-- /.menu-item -->
+        </div>
+        <!-- /.col-lg-6 -->
+        <div class="col-sm-12 col-md-12 col-lg-6">
+          <div class="menu-item">
+            <h4 class="menu__item-title">RETHYMNIAN</h4>
+            <span class="menu__item-price">5.00€</span>
+          </div>
+          <!-- /.menu-item -->
+          <div class="menu-item">
+            <h4 class="menu__item-title">STELLA</h4>
+            <span class="menu__item-price">5.50€</span>
+          </div>
+          <!-- /.menu-item -->
+
+          <div class="menu-item">
+            <h4 class="menu__item-title">MCFARLAND</h4>
+            <span class="menu__item-price">5.50€</span>
+          </div>
+          <!-- /.menu-item -->
+          <div class="menu-item">
+            <h4 class="menu__item-title">GOLD APPLE</h4>
+            <span class="menu__item-price">4.00€</span>
+            <p class="menu__item-desc">STRONGBOW</p>
+          </div>
+          <!-- /.menu-item -->
+
+          <div class="menu-item">
+            <h4 class="menu__item-title">REDBERRIES</h4>
+            <span class="menu__item-price">5.00€</span>
+            <p class="menu__item-desc">STRONGBOW</p>
+          </div>
+          <!-- /.menu-item -->
+        </div>
+        <!-- /.col-lg-6 -->
+      </div>
+      <!-- /.container -->
+      <div style="text-align: center; font-size: 20px; margin-bottom: 10%" class="container">
+        <div class="row">
+          <div class="col-sm-12 col-md-12 col-lg-12">
+            <span class="banner__subtitle">WINE </span>
+          </div>
+          <!-- /.col-lg-12 -->
+        </div>
+        <!-- /.row -->
+      </div>
+      <!-- /.container -->
+      <div class="row">
+        <div class="col-sm-12 col-md-12 col-lg-12">
+          <div class="menu-item">
+            <h4 class="menu__item-title">ORINOS ILIOS WHITE</h4>
+            <span class="menu__item-price">
+              <i class="fa-solid fa-wine-glass"></i> &nbsp; 5,00€ / 187ml
+              &nbsp; &nbsp; <i class="fa-solid fa-wine-bottle"></i> &nbsp;
+              22,00€ / 750ml</span>
+            <p class="menu__item-desc">
+              Sauvignon Blanc, Moschofilero, Semeli
+            </p>
+          </div>
+          <!-- /.menu-item -->
+          <div class="menu-item">
+            <h4 class="menu__item-title">ORINOS ILIOS ROSE</h4>
+            <span class="menu__item-price">
+              <i class="fa-solid fa-wine-glass"></i> &nbsp; 5,00€ / 187ml
+              &nbsp; &nbsp; <i class="fa-solid fa-wine-bottle"></i> &nbsp;
+              22,00€ / 750ml</span>
+            <p class="menu__item-desc">Agiorgitiko</p>
+          </div>
+          <!-- /.menu-item -->
+          <div class="menu-item">
+            <h4 class="menu__item-title">ORINOS ILIOS RED</h4>
+            <span class="menu__item-price">
+              <i class="fa-solid fa-wine-glass"></i> &nbsp; 5,00€ / 187ml
+              &nbsp; &nbsp; <i class="fa-solid fa-wine-bottle"></i> &nbsp;
+              22,00€ / 750ml</span>
+            <p class="menu__item-desc">Syrah, Agiorgitiko, Semeli</p>
+          </div>
+          <!-- /.menu-item -->
+        </div>
+        <!-- /.col-lg-6 -->
+      </div>
+
+
+      <div style="text-align: center; font-size: 20px; margin-bottom: 10%" class="container">
+        <div class="row">
+          <div class="col-sm-12 col-md-12 col-lg-12">
+            <span class="banner__subtitle">DESSERTS AND SPARLINKING WINES</span>
+          </div>
+          <!-- /.col-lg-12 -->
+        </div>
+        <!-- /.row -->
+      </div>
+      <!-- /.container -->
+      <div class="row">
+        <div class="col-sm-12 col-md-12 col-lg-12">
+          <div class="menu-item">
+            <h4 class="menu__item-title">CARAMELO WHITE</h4>
+            <span class="menu__item-price">
+              <i class="fa-solid fa-wine-glass"></i> &nbsp; 5,00€ / 187ml
+              &nbsp; &nbsp; <i class="fa-solid fa-wine-bottle"></i> &nbsp;
+              22,00€ / 750ml</span>
+            <p class="menu__item-desc">
+              TSANTALI - SEMISWEET
+            </p>
+          </div>
+          <!-- /.menu-item -->
+          <div class="menu-item">
+            <h4 class="menu__item-title">CARAMELO ΡΟΖΕ</h4>
+            <span class="menu__item-price">
+              <i class="fa-solid fa-wine-glass"></i> &nbsp; 5,00€ / 187ml
+              &nbsp; &nbsp; <i class="fa-solid fa-wine-bottle"></i> &nbsp;
+              22,00€ / 750ml</span>
+            <p class="menu__item-desc">TSANTALI - SEMISWEET</p>
+          </div>
+          <!-- /.menu-item -->
+          <div class="menu-item">
+            <h4 class="menu__item-title">PROSECCO</h4>
+            <span class="menu__item-price">
+              <i class="fa-solid fa-wine-glass"></i> &nbsp; 5,00€ / 187ml
+              &nbsp; &nbsp; <i class="fa-solid fa-wine-bottle"></i> &nbsp;
+              22,00€ / 750ml</span>
+        
+          </div>
+
+          <div class="menu-item">
+            <h4 class="menu__item-title">MOSCATO</h4>
+            <span class="menu__item-price">
+              <i class="fa-solid fa-wine-glass"></i> &nbsp; 5,00€ / 187ml
+              &nbsp; &nbsp; <i class="fa-solid fa-wine-bottle"></i> &nbsp;
+              22,00€ / 750ml</span>
+          </div>
+          <!-- /.menu-item -->
+          <div class="menu-item">
+            <h4 class="menu__item-title">MOET & CHANDON BRUT IMPERIAL</h4>
+            <span class="menu__item-price">
+              <i class="fa-solid fa-wine-glass"></i>
+              &nbsp; &nbsp; <i class="fa-solid fa-wine-bottle"></i> &nbsp;
+              100,00€ / 750ml</span>
+        
+          </div>
+
+          <div class="menu-item">
+            <h4 class="menu__item-title">MOET & CHANDON ICE IMPERIAL</h4>
+            <span class="menu__item-price">
+             
+              <i class="fa-solid fa-wine-bottle"></i> &nbsp;
+              120,00€ / 750ml</span>
+        
+          </div>
+
+          <!-- /.menu-item -->
+        </div>
+        <!-- /.col-lg-6 -->
+      </div>
+
+
+
+
+
+
+    </div>
+    <!-- /.container -->
+  </section>
+
+
+<section id="drinksBanner"
+class="text-banner text-banner-layout1 text-center bg-overlay bg-overlay-gradient bg-parallax">
+<div class="bg-img">
+  <img src="assets/images/backgrounds/27.jpg" alt="background" />
+</div>
+<svg class="divider-shape" xmlns="http://www.w3.org/2000/svg" width="142" height="17" viewBox="0 0 142 17">
+  <path
+    d="M800,600V583c8.782,15.985,46.811,11.315,56,12a35.721,35.721,0,0,1,15,5m-71,0V583c-8.782,15.985-46.811,11.315-56,12a35.717,35.717,0,0,0-15,5"
+    transform="translate(-729 -583)"></path>
+</svg>
+<div class="container">
+  <div class="row">
+    <div class="col-sm-12 col-md-12 col-lg-12">
+      <span class="banner__subtitle"></span>
+      <h2 class="banner__title">Ποτά</h2>
+    </div>
+    <!-- /.col-lg-12 -->
+  </div>
+  <!-- /.row -->
+</div>
+<!-- /.container -->
+</section>
+<!-- /.textBanner layout1 -->
+
+<section id="drinks" class="menu-layout1 pb-80">
+<div class="container">
+  <div style="text-align: center; font-size: 20px; margin-bottom: 10%" class="container">
+    <div class="row">
+      <div class="col-sm-12 col-md-12 col-lg-12">
+        <span class="banner__subtitle">Whiskey </span>
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-sm-12 col-md-12 col-lg-12">
+      <div class="menu-item">
+        <h4 class="menu__item-title">ΗΑΙG</h4>
+        <span class="menu__item-price">
+          <i class="fa-solid fa-wine-glass"></i> &nbsp; 7,00€ 
+          &nbsp; &nbsp; <i class="fa-solid fa-wine-bottle"></i> &nbsp;
+          70,00€ </span>
+       
+      </div>
+      <!-- /.menu-item -->
+      <div class="menu-item">
+        <h4 class="menu__item-title">BALLANTINES</h4>
+        <span class="menu__item-price">
+          <i class="fa-solid fa-wine-glass"></i> &nbsp; 7,00€ 
+          &nbsp; &nbsp; <i class="fa-solid fa-wine-bottle"></i> &nbsp;
+          70,00€ </span>
+      </div>
+      <!-- /.menu-item -->
+      <div class="menu-item">
+        <h4 class="menu__item-title">JAMESON</h4>
+        <span class="menu__item-price">
+          <i class="fa-solid fa-wine-glass"></i> &nbsp; 7,00€ 
+          &nbsp; &nbsp; <i class="fa-solid fa-wine-bottle"></i> &nbsp;
+          70,00€ </span>
+      </div>
+
+      <div class="menu-item">
+        <h4 class="menu__item-title">FOUR ROSES</h4>
+        <span class="menu__item-price">
+          <i class="fa-solid fa-wine-glass"></i> &nbsp; 7,00€ 
+          &nbsp; &nbsp; <i class="fa-solid fa-wine-bottle"></i> &nbsp;
+          70,00€ </span>
+       
+      </div>
+      <!-- /.menu-item -->
+      <div class="menu-item">
+        <h4 class="menu__item-title">JOHNNIE WALKER BLACK</h4>
+        <span class="menu__item-price">
+          <i class="fa-solid fa-wine-glass"></i> &nbsp; 8,00€ 
+          &nbsp; &nbsp; <i class="fa-solid fa-wine-bottle"></i> &nbsp;
+          80,00€ </span>
+      </div>
+      <!-- /.menu-item -->
+      <div class="menu-item">
+        <h4 class="menu__item-title">GLENFIDDICH</h4>
+        <span class="menu__item-price">
+          <i class="fa-solid fa-wine-glass"></i> &nbsp; 9,00€ 
+          &nbsp; &nbsp; <i class="fa-solid fa-wine-bottle"></i> &nbsp;
+          90,00€ </span>
+      </div>
+
+
+ 
+      <!-- /.menu-item -->
+      <div class="menu-item">
+        <h4 class="menu__item-title">CHIVAS 12*</h4>
+        <span class="menu__item-price">
+          <i class="fa-solid fa-wine-glass"></i> &nbsp; 9,00€ 
+          &nbsp; &nbsp; <i class="fa-solid fa-wine-bottle"></i> &nbsp;
+          90,00€ </span>
+      </div>
+      <!-- /.menu-item -->
+      <div class="menu-item">
+        <h4 class="menu__item-title">CARDHU</h4>
+        <span class="menu__item-price">
+          <i class="fa-solid fa-wine-glass"></i> &nbsp; 9,00€ 
+          &nbsp; &nbsp; <i class="fa-solid fa-wine-bottle"></i> &nbsp;
+          90,00€ </span>
+      </div>
+
+      <div class="menu-item">
+        <h4 class="menu__item-title">DIMPLE</h4>
+        <span class="menu__item-price">
+          <i class="fa-solid fa-wine-glass"></i> &nbsp; 9,00€ 
+          &nbsp; &nbsp; <i class="fa-solid fa-wine-bottle"></i> &nbsp;
+          90,00€ </span>
+      </div>
+
+
+      <div class="menu-item">
+        <h4 class="menu__item-title">TALISKER</h4>
+        <span class="menu__item-price">
+          <i class="fa-solid fa-wine-glass"></i> &nbsp; 11,00€ 
+          &nbsp; &nbsp; <i class="fa-solid fa-wine-bottle"></i> &nbsp;
+          100,00€ </span>
+      </div>
+
+      <div class="menu-item">
+        <h4 class="menu__item-title">CHIVAS 18*</h4>
+        <span class="menu__item-price">
+          <i class="fa-solid fa-wine-glass"></i> &nbsp; 15,00€ 
+          &nbsp; &nbsp; <i class="fa-solid fa-wine-bottle"></i> &nbsp;
+          150,00€ </span>
+      </div>
+      <!-- /.menu-item -->
+    </div>
+    <!-- /.col-lg-6 -->
+  </div>
+
+
+  <div style="text-align: center; font-size: 20px; margin-bottom: 10%" class="container">
+    <div class="row">
+      <div class="col-sm-12 col-md-12 col-lg-12">
+        <span class="banner__subtitle">GIN </span>
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-sm-12 col-md-12 col-lg-12">
+      <div class="menu-item">
+        <h4 class="menu__item-title">GORDONS</h4>
+        <span class="menu__item-price">
+          <i class="fa-solid fa-wine-glass"></i> &nbsp; 7,00€ 
+          &nbsp; &nbsp; <i class="fa-solid fa-wine-bottle"></i> &nbsp;
+          70,00€ </span>
+       
+      </div>
+      <!-- /.menu-item -->
+      <div class="menu-item">
+        <h4 class="menu__item-title">BEEFEATER</h4>
+        <span class="menu__item-price">
+          <i class="fa-solid fa-wine-glass"></i> &nbsp; 7,00€ 
+          &nbsp; &nbsp; <i class="fa-solid fa-wine-bottle"></i> &nbsp;
+          70,00€ </span>
+      </div>
+      <!-- /.menu-item -->
+  
+      <!-- /.menu-item -->
+      <div class="menu-item">
+        <h4 class="menu__item-title">TANQUERAY</h4>
+        <span class="menu__item-price">
+          <i class="fa-solid fa-wine-glass"></i> &nbsp; 8,00€ 
+          &nbsp; &nbsp; <i class="fa-solid fa-wine-bottle"></i> &nbsp;
+          80,00€ </span>
+      </div>
+      <!-- /.menu-item -->
+      <div class="menu-item">
+        <h4 class="menu__item-title">BOMBAY</h4>
+        <span class="menu__item-price">
+          <i class="fa-solid fa-wine-glass"></i> &nbsp; 8,00€ 
+          &nbsp; &nbsp; <i class="fa-solid fa-wine-bottle"></i> &nbsp;
+          80,00€ </span>
+      </div>
+
+
+ 
+      <!-- /.menu-item -->
+      <div class="menu-item">
+        <h4 class="menu__item-title">HENDRICKS</h4>
+        <span class="menu__item-price">
+          <i class="fa-solid fa-wine-glass"></i> &nbsp; 10,00€ 
+          &nbsp; &nbsp; <i class="fa-solid fa-wine-bottle"></i> &nbsp;
+          100,00€ </span>
+      </div>
+      <!-- /.menu-item -->
+      <div class="menu-item">
+        <h4 class="menu__item-title">MONKEY</h4>
+        <span class="menu__item-price">
+          <i class="fa-solid fa-wine-glass"></i> &nbsp; 12,00€ 
+          &nbsp; &nbsp; <i class="fa-solid fa-wine-bottle"></i> &nbsp;
+          120,00€ </span>
+      </div>
+     
+      <!-- /.menu-item -->
+    </div>
+    <!-- /.col-lg-6 -->
+  </div>
+
+  <div style="text-align: center; font-size: 20px; margin-bottom: 10%" class="container">
+    <div class="row">
+      <div class="col-sm-12 col-md-12 col-lg-12">
+        <span class="banner__subtitle">VODKA </span>
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-sm-12 col-md-12 col-lg-12">
+      <div class="menu-item">
+        <h4 class="menu__item-title">ABSLOLUT</h4>
+        <span class="menu__item-price">
+          <i class="fa-solid fa-wine-glass"></i> &nbsp; 7,00€ 
+          &nbsp; &nbsp; <i class="fa-solid fa-wine-bottle"></i> &nbsp;
+          70,00€ </span>
+       
+      </div>
+      <!-- /.menu-item -->
+      <div class="menu-item">
+        <h4 class="menu__item-title">STOLICHNAYA</h4>
+        <span class="menu__item-price">
+          <i class="fa-solid fa-wine-glass"></i> &nbsp; 7,00€ 
+          &nbsp; &nbsp; <i class="fa-solid fa-wine-bottle"></i> &nbsp;
+          70,00€ </span>
+      </div>
+      <!-- /.menu-item -->
+  
+      <!-- /.menu-item -->
+      <div class="menu-item">
+        <h4 class="menu__item-title">GREY GROOSE</h4>
+        <span class="menu__item-price">
+          <i class="fa-solid fa-wine-glass"></i> &nbsp; 10,00€ 
+          &nbsp; &nbsp; <i class="fa-solid fa-wine-bottle"></i> &nbsp;
+          100,00€ </span>
+      </div>
+      <!-- /.menu-item -->
+      <div class="menu-item">
+        <h4 class="menu__item-title">CIROC</h4>
+        <span class="menu__item-price">
+          <i class="fa-solid fa-wine-glass"></i> &nbsp; 10,00€ 
+          &nbsp; &nbsp; <i class="fa-solid fa-wine-bottle"></i> &nbsp;
+          100,00€ </span>
+      </div>
+
+
+ 
+      <!-- /.menu-item -->
+      <div class="menu-item">
+        <h4 class="menu__item-title">BELUGA</h4>
+        <span class="menu__item-price">
+          <i class="fa-solid fa-wine-glass"></i> &nbsp; 10,00€ 
+          &nbsp; &nbsp; <i class="fa-solid fa-wine-bottle"></i> &nbsp;
+          100,00€ </span>
+      </div>
+      <!-- /.menu-item -->
+      <div class="menu-item">
+        <h4 class="menu__item-title">STOLICHNAYA ELITE</h4>
+        <span class="menu__item-price">
+          <i class="fa-solid fa-wine-glass"></i> &nbsp; 12,00€ 
+          &nbsp; &nbsp; <i class="fa-solid fa-wine-bottle"></i> &nbsp;
+          120,00€ </span>
+      </div>
+
+      <div class="menu-item">
+        <h4 class="menu__item-title">CRYSTAL HEAD</h4>
+        <span class="menu__item-price">
+          <i class="fa-solid fa-wine-glass"></i> &nbsp; 13,00€ 
+          &nbsp; &nbsp; <i class="fa-solid fa-wine-bottle"></i> &nbsp;
+          130,00€ </span>
+      </div>
+     
+    </div>
+  </div>
+
+  <div style="text-align: center; font-size: 20px; margin-bottom: 10%" class="container">
+    <div class="row">
+      <div class="col-sm-12 col-md-12 col-lg-12">
+        <span class="banner__subtitle">TEQUILA </span>
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-sm-12 col-md-12 col-lg-12">
+      <div class="menu-item">
+        <h4 class="menu__item-title">BLANCO JOSE CUERVO</h4>
+        <span class="menu__item-price">
+          <i class="fa-solid fa-wine-glass"></i> &nbsp; 8,00€ 
+          &nbsp; &nbsp; <i class="fa-solid fa-wine-bottle"></i> &nbsp;
+          80,00€ </span>
+       
+      </div>
+      <!-- /.menu-item -->
+      <div class="menu-item">
+        <h4 class="menu__item-title">REPOSADO JOCE CUERVO</h4>
+        <span class="menu__item-price">
+          <i class="fa-solid fa-wine-glass"></i> &nbsp; 8,00€ 
+          &nbsp; &nbsp; <i class="fa-solid fa-wine-bottle"></i> &nbsp;
+          80,00€ </span>
+      </div>
+      <!-- /.menu-item -->
+  
+      <!-- /.menu-item -->
+      <div class="menu-item">
+        <h4 class="menu__item-title">DON JULIO BLANCO</h4>
+        <span class="menu__item-price">
+          <i class="fa-solid fa-wine-glass"></i> &nbsp; 10,00€ 
+          &nbsp; &nbsp; <i class="fa-solid fa-wine-bottle"></i> &nbsp;
+          80,00€ </span>
+      </div>
+      <!-- /.menu-item -->
+      <div class="menu-item">
+        <h4 class="menu__item-title">DON JULIO REPOSADO</h4>
+        <span class="menu__item-price">
+          <i class="fa-solid fa-wine-glass"></i> &nbsp; 11,00€ 
+          &nbsp; &nbsp; <i class="fa-solid fa-wine-bottle"></i> &nbsp;
+          110,00€ </span>
+      </div>
+
+     
+    </div>
+  </div>
+
+  
+  <div style="text-align: center; font-size: 20px; margin-bottom: 10%" class="container">
+    <div class="row">
+      <div class="col-sm-12 col-md-12 col-lg-12">
+        <span class="banner__subtitle">RUM </span>
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-sm-12 col-md-12 col-lg-12">
+      <div class="menu-item">
+        <h4 class="menu__item-title">SANTIAGIO DE CUBA</h4>
+        <span class="menu__item-price">
+          <i class="fa-solid fa-wine-glass"></i> &nbsp; 7,00€ 
+          &nbsp; &nbsp; <i class="fa-solid fa-wine-bottle"></i> &nbsp;
+          70,00€ </span>
+       
+      </div>
+      <!-- /.menu-item -->
+      <div class="menu-item">
+        <h4 class="menu__item-title">HAVANA 3*</h4>
+        <span class="menu__item-price">
+          <i class="fa-solid fa-wine-glass"></i> &nbsp; 7,00€ 
+          &nbsp; &nbsp; <i class="fa-solid fa-wine-bottle"></i> &nbsp;
+          70,00€ </span>
+      </div>
+      <!-- /.menu-item -->
+  
+      <!-- /.menu-item -->
+      <div class="menu-item">
+        <h4 class="menu__item-title">BACARDI</h4>
+        <span class="menu__item-price">
+          <i class="fa-solid fa-wine-glass"></i> &nbsp; 7,00€ 
+          &nbsp; &nbsp; <i class="fa-solid fa-wine-bottle"></i> &nbsp;
+          70,00€ </span>
+      </div>
+      <!-- /.menu-item -->
+      <div class="menu-item">
+        <h4 class="menu__item-title">HAVANA 5*</h4>
+        <span class="menu__item-price">
+          <i class="fa-solid fa-wine-glass"></i> &nbsp; 8,00€ 
+          &nbsp; &nbsp; <i class="fa-solid fa-wine-bottle"></i> &nbsp;
+          80,00€ </span>
+      </div>
+
+      <div class="menu-item">
+        <h4 class="menu__item-title">HAVANA 7*</h4>
+        <span class="menu__item-price">
+          <i class="fa-solid fa-wine-glass"></i> &nbsp; 9,00€ 
+          &nbsp; &nbsp; <i class="fa-solid fa-wine-bottle"></i> &nbsp;
+          90,00€ </span>
+      </div>
+
+      <div class="menu-item">
+        <h4 class="menu__item-title">BACARDI</h4>
+        <span class="menu__item-price">
+          <i class="fa-solid fa-wine-glass"></i> &nbsp; 7,00€ 
+          &nbsp; &nbsp; <i class="fa-solid fa-wine-bottle"></i> &nbsp;
+          70,00€ </span>
+      </div>
+
+      <div class="menu-item">
+        <h4 class="menu__item-title">ZACAPA</h4>
+        <span class="menu__item-price">
+          <i class="fa-solid fa-wine-glass"></i> &nbsp; 14,00€ 
+          &nbsp; &nbsp; <i class="fa-solid fa-wine-bottle"></i> &nbsp;
+          140,00€ </span>
+      </div>
+
+      
+
+     
+    </div>
+  </div>
+
+
+  <div style="text-align: center; font-size: 20px; margin-bottom: 10%" class="container">
+    <div class="row">
+      <div class="col-sm-12 col-md-12 col-lg-12">
+        <span class="banner__subtitle">LIQUER </span>
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-sm-12 col-md-12 col-lg-12">
+      <div class="menu-item">
+        <h4 class="menu__item-title">OUZO</h4>
+        <span class="menu__item-price">
+          <i class="fa-solid fa-wine-glass"></i> &nbsp; 6,00€ 
+          &nbsp; &nbsp; <i class="fa-solid fa-wine-bottle"></i> &nbsp;
+          60,00€ </span>
+       
+      </div>
+      <!-- /.menu-item -->
+      <div class="menu-item">
+        <h4 class="menu__item-title">KAHLUA</h4>
+        <span class="menu__item-price">
+          <i class="fa-solid fa-wine-glass"></i> &nbsp; 7,00€ 
+          &nbsp; &nbsp; <i class="fa-solid fa-wine-bottle"></i> &nbsp;
+          70,00€ </span>
+      </div>
+
+      <div class="menu-item">
+        <h4 class="menu__item-title">BAILEYS</h4>
+        <span class="menu__item-price">
+          <i class="fa-solid fa-wine-glass"></i> &nbsp; 7,00€ 
+          &nbsp; &nbsp; <i class="fa-solid fa-wine-bottle"></i> &nbsp;
+          70,00€ </span>
+      </div>
+
+
+      <div class="menu-item">
+        <h4 class="menu__item-title">COINTREAU</h4>
+        <span class="menu__item-price">
+          <i class="fa-solid fa-wine-glass"></i> &nbsp; 7,00€ 
+          &nbsp; &nbsp; <i class="fa-solid fa-wine-bottle"></i> &nbsp;
+          70,00€ </span>
+      </div>
+
+
+      <div class="menu-item">
+        <h4 class="menu__item-title">FRANGELICO</h4>
+        <span class="menu__item-price">
+          <i class="fa-solid fa-wine-glass"></i> &nbsp; 7,00€ 
+          &nbsp; &nbsp; <i class="fa-solid fa-wine-bottle"></i> &nbsp;
+          70,00€ </span>
+      </div>
+
+
+      <div class="menu-item">
+        <h4 class="menu__item-title">SOUTHERN COMFORT</h4>
+        <span class="menu__item-price">
+          <i class="fa-solid fa-wine-glass"></i> &nbsp; 7,00€ 
+          &nbsp; &nbsp; <i class="fa-solid fa-wine-bottle"></i> &nbsp;
+          70,00€ </span>
+      </div>
+
+
+      <div class="menu-item">
+        <h4 class="menu__item-title">MALIBU</h4>
+        <span class="menu__item-price">
+          <i class="fa-solid fa-wine-glass"></i> &nbsp; 7,00€ 
+          &nbsp; &nbsp; <i class="fa-solid fa-wine-bottle"></i> &nbsp;
+          70,00€ </span>
+      </div>
+
+
+      <div class="menu-item">
+        <h4 class="menu__item-title">CAMPARI</h4>
+        <span class="menu__item-price">
+          <i class="fa-solid fa-wine-glass"></i> &nbsp; 7,00€ 
+          &nbsp; &nbsp; <i class="fa-solid fa-wine-bottle"></i> &nbsp;
+          70,00€ </span>
+      </div>
+      
+
+      <div class="menu-item">
+        <h4 class="menu__item-title">JAGERMEISTER</h4>
+        <span class="menu__item-price">
+          <i class="fa-solid fa-wine-glass"></i> &nbsp; 7,00€ 
+          &nbsp; &nbsp; <i class="fa-solid fa-wine-bottle"></i> &nbsp;
+          70,00€ </span>
+      </div>
+
+      
+      <div class="menu-item">
+        <h4 class="menu__item-title">DRAMBUIE</h4>
+        <span class="menu__item-price">
+          <i class="fa-solid fa-wine-glass"></i> &nbsp; 8,00€ 
+          &nbsp; &nbsp; <i class="fa-solid fa-wine-bottle"></i> &nbsp;
+          80,00€ </span>
+      </div>
+
+
+
+      
+
+     
+    </div>
+  </div>
+
+  <div style="text-align: center; font-size: 20px; margin-bottom: 10%" class="container">
+    <div class="row">
+      <div class="col-sm-12 col-md-12 col-lg-12">
+        <span class="banner__subtitle">VERMOUTH </span>
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-sm-12 col-md-12 col-lg-12">
+      <div class="menu-item">
+        <h4 class="menu__item-title">MARTINI BIANCO</h4>
+        <span class="menu__item-price">
+          <i class="fa-solid fa-wine-glass"></i> &nbsp; 7,00€ 
+          &nbsp; &nbsp; <i class="fa-solid fa-wine-bottle"></i> &nbsp;
+          70,00€ </span>
+       
+      </div>
+      <!-- /.menu-item -->
+      <div class="menu-item">
+        <h4 class="menu__item-title">MARTINI ROSSO</h4>
+        <span class="menu__item-price">
+          <i class="fa-solid fa-wine-glass"></i> &nbsp; 7,00€ 
+          &nbsp; &nbsp; <i class="fa-solid fa-wine-bottle"></i> &nbsp;
+          70,00€ </span>
+      </div>
+
+      <div class="menu-item">
+        <h4 class="menu__item-title">BAILEYS</h4>
+        <span class="menu__item-price">
+          <i class="fa-solid fa-wine-glass"></i> &nbsp; 7,00€ 
+          &nbsp; &nbsp; <i class="fa-solid fa-wine-bottle"></i> &nbsp;
+          70,00€ </span>
+      </div>
+
+
+      <div class="menu-item">
+        <h4 class="menu__item-title">MARTINI EXTRA</h4>
+        <span class="menu__item-price">
+          <i class="fa-solid fa-wine-glass"></i> &nbsp; 7,00€ 
+          &nbsp; &nbsp; <i class="fa-solid fa-wine-bottle"></i> &nbsp;
+          70,00€ </span>
+      </div>
+
+
+      <div class="menu-item">
+        <h4 class="menu__item-title">ANTICA FORMOULA</h4>
+        <span class="menu__item-price">
+          <i class="fa-solid fa-wine-glass"></i> &nbsp; 8,00€ 
+          &nbsp; &nbsp; <i class="fa-solid fa-wine-bottle"></i> &nbsp;
+          80,00€ </span>
+      </div>
+    </div>
+  </div>
+
+
+  
+  </div>
+</section>
+</div>
 
 
   <footer id="footer" class="footer footer-layout1 text-center bg-dark">
